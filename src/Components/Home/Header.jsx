@@ -51,19 +51,21 @@ const Header = () => {
           <div className="flex items-center justify-between h-[50px] md:h-[81px] z-50 relative">
             <div>
               <a href="/" className="z-50 relative">
-                <img src={Logo} alt="" className="w-[188px] h-[38px]" />
+                <img
+                  src={Logo}
+                  alt=""
+                  className="w-[188px] h-[32px] md:h-[38px]"
+                />
               </a>
             </div>
             <ul
               className={`${
                 show ? "left-0" : ""
-              } duration-500 bg-[#161616] w-full h-full top-[0] -left-full fixed gap-[25px] xl:gap-[50px] flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
+              } duration-500 bg-[#161616] w-full h-full top-[0] -left-full fixed gap-[10px] xl:gap-[50px] flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
             >
               {[
                 "Home",
-                "Service",
                 "About Us",
-                "Our Work",
                 "Our Clients",
                 "Contact Us",
               ].map((item, index) => (
@@ -110,9 +112,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[130px] py-[40px] md:py-[60px] lg:py-[90px] xl:pt-[100px]">
+      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[130px] py-[40px] md:py-[60px] xl:pt-[100px]">
         <div className="lg:flex items-center">
-          <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start md:justify-center lg:justify-start md:flex flex-col">
+          <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
             <h1 className=" font-roboto text-white text-[27px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
               We Ignite Bold Ideas Through Dynamic Brainstorming, Elevating Your
               Brand to New Heights
