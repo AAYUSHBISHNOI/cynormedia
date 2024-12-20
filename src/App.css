@@ -1,6 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.circle_gradient_border {
+  position: relative;
+  background: linear-gradient(to bottom, #54e1a1 1.77%, #45abd5 97.88%);
+  padding: 2px; /* Border width set to 2px */
+  border-radius: 50%; /* Ensures the gradient border is circular */
+  background-clip: padding-box; /* Clips the gradient to the border */
+  opacity: 0.8; /* Make the outer circle's border less visible */
+}
+
+.inner_circle {
+  background: #222525; /* Inner circle color */
+  border-radius: 50%; /* Ensures the inner content is circular */
+  width: 100%; /* Fills the available space */
+  height: 100%;
+  opacity: 1; /* Makes the inner circle fully visible */
+}

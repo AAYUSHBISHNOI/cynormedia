@@ -5,11 +5,11 @@ import imgthree from "../../Assets/Images/Home/Png/Slider-1.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const AboutUs = () => {
   const [activeSlide, setActiveSlide] = useState(2); // Default to the 3rd slide (index 2)
   const sectionRef = useRef(null);
+  const animationRan = useRef(false);
+  // Track if the animation has run
 
   // Array of images for the slides
   const images = [imgone, imgtwo, imgthree];
@@ -17,12 +17,15 @@ const AboutUs = () => {
   // Counter data
   const counters = [
     { id: 1, value: 15, text: "Brands Promoted" },
-    { id: 2, value: 10000, text: " Promotional activities carried out" },
+    { id: 2, value: 10000, text: "Promotional activities carried out" },
   ];
 
   // Animate counters when the section is in view
   useEffect(() => {
+    if (animationRan.current) return; // Stop if animation already ran
+
     const elements = sectionRef.current.querySelectorAll(".counter");
+    animationRan.current = true; // Mark animation as run
 
     counters.forEach((counter, index) => {
       const targetValue = counter.value;
@@ -141,6 +144,15 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
+          <button className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]">
+            <a
+              href=""
+              className=" text-white bg-black py-1 px-3 rounded-full text-xl text-center"
+            >
+              >
+            </a>
+            Start your Free Trial
+          </button>
         </div>
       </div>
     </div>

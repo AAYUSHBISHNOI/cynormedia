@@ -5,6 +5,10 @@ const OurServise = () => {
   return (
     <div>
       <div className=" max-w-[1440px] mx-auto py-10 md:pt-[50px] md:pb-[80px] px-4">
+        {/* <div className="circle_gradient_border w-[550px] h-[550px] rounded-full flex items-center justify-center">
+          <div className="inner_circle w-full h-full rounded-full"></div>
+        </div> */}
+
         <div className=" text-center flex flex-col justify-center items-center">
           <p className=" text-light_green font-semibold leading-130 font-roboto text-2xl md:text-3xl">
             Our Services
@@ -84,7 +88,7 @@ const OurServise = () => {
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
               <Product />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
-                PRODUCT LAUNCH
+                Product Launch
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[310px]">
                 Maximize your launch momentum! Our tailored services include

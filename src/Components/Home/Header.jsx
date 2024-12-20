@@ -63,26 +63,23 @@ const Header = () => {
                 show ? "left-0" : ""
               } duration-500 bg-[#161616] w-full h-full top-[0] -left-full fixed gap-[10px] xl:gap-[50px] flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
             >
-              {[
-                "Home",
-                "About Us",
-                "Our Clients",
-                "Contact Us",
-              ].map((item, index) => (
-                <li key={index}>
-                  <a
-                    href="#"
-                    onClick={() => handleLinkClick(index)}
-                    className={`relative transition-all ease-in-out duration-500 font-dm font-medium text-base leading-[126%] hover:after:w-[57px] ${
-                      activeLink === index
-                        ? "!text-[#fff] xl:after:w-[57px] xl:after:border-b-[#ffa852] xl:after:border-l-[30px] xl:after:border-l-transparent xl:after:border-r-[30px] xl:after:border-r-transparent xl:after:border-b-[30px] xl:after:border-b-black xl:after:rotate-180"
-                        : "text-white"
-                    } xl:after:absolute xl:after:top-[-40px] xl:after:left-[-5px] xl:after:h-[30px]`}
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {["Home", "About Us", "Our Clients", "Contact Us"].map(
+                (item, index) => (
+                  <li key={index}>
+                    <a
+                      href="#"
+                      onClick={() => handleLinkClick(index)}
+                      className={`relative transition-all ease-in-out duration-500 font-dm font-medium text-base leading-[126%] hover:after:w-[57px] ${
+                        activeLink === index
+                          ? "!text-[#fff] xl:after:w-[57px] xl:after:border-b-[#ffa852] xl:after:border-l-[30px] xl:after:border-l-transparent xl:after:border-r-[30px] xl:after:border-r-transparent xl:after:border-b-[30px] xl:after:border-b-black xl:after:rotate-180"
+                          : "text-white"
+                      } xl:after:absolute xl:after:top-[-40px] xl:after:left-[-5px] xl:after:h-[30px]`}
+                    >
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
               <button className="font-dm md:hidden font-medium text-lg leading-[126%] text-black hover:text-[#ffa852] bg-[#fff] hover:bg-white duration-500 ease-in-out py-[12px] px-[15px] rounded-full">
                 Get in touch
               </button>
