@@ -8,7 +8,7 @@ import { Facebook, Instagram, Linkdin } from "../Common.jsx/Icons";
 
 const Footer = () => {
   return (
-    <div className="bg-[#0c0c0c] py-10 md:pt-[100px] md:pb-[60px]">
+    <div className="bg-[#0c0c0c] py-10 md:pt-14 lg:pt-[100px] md:pb-[60px]">
       <div className="max-w-[1440px] mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full md:w-[55%] lg:w-[40%]">
@@ -148,7 +148,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full h-[2px] bg-[#696969] mt-10 md:mt-[101px] mb-[29px]"></div>
+        <div className="w-full h-[2px] bg-[#696969] mt-10 md:mt-14 lg:mt-[101px] mb-[29px]"></div>
         <div className="flex flex-wrap justify-between">
           <div>
             <p className="font-roboto font-semibold text-xl leading-121 text-white">
@@ -158,7 +158,7 @@ const Footer = () => {
               Designed by Iconstica.com
             </p>
           </div>
-          <ul className="mt-4 lg:mt-0">
+          <ul className="mt-4 sm:mt-0">
             <li className="font-roboto font-semibold text-xl leading-121 text-white mb-0">
               Contact Us
             </li>
@@ -171,7 +171,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <div className="mt-4 lg:mt-0">
+          <div className="mt-4 md:mt-0">
             <p className="font-roboto font-semibold text-xl leading-121 text-white">
               Address
             </p>

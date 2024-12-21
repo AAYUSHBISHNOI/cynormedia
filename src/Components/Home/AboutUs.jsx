@@ -16,7 +16,7 @@ const AboutUs = () => {
 
   // Counter data
   const counters = [
-    { id: 1, value: 15, text: "Brands Promoted" },
+    { id: 1, value: 18, text: "Brands Promoted" },
     { id: 2, value: 10000, text: "Promotional activities carried out" },
   ];
 

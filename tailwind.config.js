@@ -23,6 +23,9 @@ module.exports = {
         light_green: "#64CCC5",
         light_black: "#0c0c0c",
       },
+      screens: {
+        sm: "420px",
+      },
     },
   },
   plugins: [],

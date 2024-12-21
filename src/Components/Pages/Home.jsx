@@ -5,18 +5,18 @@ import AboutUs from "../Home/AboutUs";
 import Process from "../Home/Process";
 import RecentShowcase from "../Home/RecentShowcase";
 import Slider from "../Home/Slider";
-import Footer from "../Home/Footer";
+import Navbar from "../Home/Navbar";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <Header />
       <OurServise />
       <AboutUs />
       {/* <Process /> */}
       <RecentShowcase />
       <Slider />
-      <Footer />
     </>
   );
 };
