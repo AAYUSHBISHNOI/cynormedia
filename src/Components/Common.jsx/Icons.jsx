@@ -547,3 +547,27 @@ export const LinkdinContact = () => {
     </svg>
   );
 };
+export const Star = ({ rating, colorMap }) => {
+  const defaultColor = "#FBFBFB";
+  const filledColor = colorMap?.[Math.round(rating)] || "#FFD700";
+
+  const stars = Array.from({ length: 5 }, (_, index) => {
+    const starRating = index + 1; 
+    return (
+      <svg
+        key={index}
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10 1.5L12.5 7H18L13.5 10.5L15 16.5L10 13L5 16.5L6.5 10.5L2 7H7.5L10 1.5Z"
+          fill={starRating <= Math.ceil(rating) ? filledColor : defaultColor}
+        />
+      </svg>
+    );
+  });
+
+  return <div style={{ display: "flex", gap: "4px" }}>{stars}</div>;
+};

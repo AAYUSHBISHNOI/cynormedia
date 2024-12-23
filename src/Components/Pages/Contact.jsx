@@ -6,7 +6,7 @@ import GoogleMap from "../ContactUs/GoogleMap";
 const Contact = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <LetsTalk />
       <GoogleMap />
     </div>

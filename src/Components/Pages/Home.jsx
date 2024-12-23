@@ -10,7 +10,7 @@ import Navbar from "../Home/Navbar";
 const Home = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       <OurServise />
       <AboutUs />
