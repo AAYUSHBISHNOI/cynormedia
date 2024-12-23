@@ -20,10 +20,10 @@ const RecentShowcase = () => {
                 alt=""
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
-                Web UI design
+                Float Van Campaign
               </p>
               <p className="font-dm font-normal text-base md:text-lg text-light_black leading-121 mb-0 mt-1 lg:mt-2.5">
-                Creative UI design
+                Jammu kashmir
               </p>
             </div>
           </div>
@@ -46,10 +46,10 @@ const RecentShowcase = () => {
                 alt=""
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
-                To design Digital Strategy
+                Float Setup
               </p>
               <p className="font-dm font-normal text-base md:text-lg text-light_black leading-121 mb-0 mt-1 lg:mt-2.5">
-                Social Media Marketing
+                Rajasthan
               </p>
             </div>
           </div>
@@ -61,10 +61,10 @@ const RecentShowcase = () => {
                 alt=""
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
-                UI Design
+                Corporate Events
               </p>
               <p className="font-dm font-normal text-base md:text-lg text-light_black leading-121 mb-0 mt-1 lg:mt-2.5">
-                Creative Rebranding for logo
+                Chandigarh
               </p>
             </div>
           </div>
@@ -76,10 +76,10 @@ const RecentShowcase = () => {
                 alt=""
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
-                Web UI design
+                Product Launch
               </p>
               <p className="font-dm font-normal text-base md:text-lg text-light_black leading-121 mb-0 mt-1 lg:mt-2.5">
-                Creative UI design
+                Haryana
               </p>
             </div>
           </div>
