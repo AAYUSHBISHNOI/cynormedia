@@ -36,10 +36,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#161616]">
+    <div className="bg-[#000000]">
       <div className="overflow-hidden">
         <div className="mx-auto max-w-[1440px] px-[20px] mt-2">
-          <div className="flex items-center justify-between h-[50px] md:h-[81px] z-50 relative">
+          <div className="flex items-center justify-between h-[50px] md:h-[100px] z-50 relative">
             <div>
               <a href="/" className="z-50 relative">
                 <img
@@ -52,7 +52,7 @@ const Navbar = () => {
             <ul
               className={`${
                 show ? "left-0" : "-left-full"
-              } duration-500 bg-[#161616] w-full h-full top-0 fixed gap-10 xl:gap-12 flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
+              } duration-500 bg-[#000000] w-full h-full top-0 fixed gap-10 xl:gap-12 flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
             >
               {[
                 { name: "Home", path: "/" },
@@ -68,7 +68,7 @@ const Navbar = () => {
                       activeLink === index
                         ? "!text-[#fff] xl:after:w-[57px] xl:after:border-b-[#ffa852] xl:after:border-l-[30px] xl:after:border-l-transparent xl:after:border-r-[30px] xl:after:border-r-transparent xl:after:border-b-[30px] xl:after:border-b-black xl:after:rotate-180"
                         : "text-white"
-                    } xl:after:absolute xl:after:top-[-40px] xl:after:left-[-5px] xl:after:h-[30px]`}
+                    } xl:after:absolute xl:after:top-[-50px] xl:after:left-[-5px] xl:after:h-[30px]`}
                   >
                     {item.name}
                   </Link>

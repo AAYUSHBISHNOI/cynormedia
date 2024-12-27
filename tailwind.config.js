@@ -10,6 +10,11 @@ module.exports = {
       },
       backgroundImage: {
         "Hero-bg": "url('./Assets/Images/Home/Png/Hero-bg.png')",
+        "Enough-bg":
+          "url('./Assets/Images/About-Us/Png/Call to Action-bg.png')",
+      },
+      boxShadow: {
+        lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",  
       },
       lineHeight: {
         110: "110%",
