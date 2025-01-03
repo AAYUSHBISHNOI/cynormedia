@@ -7,9 +7,7 @@ const ChooseUs = () => {
         <h2 className="font-roboto font-semibold text-center text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
           Why Choose Us
         </h2>
-        <div>
-            
-        </div>
+        <div></div>
       </div>
     </div>
   );

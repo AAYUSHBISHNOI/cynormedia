@@ -5,16 +5,17 @@ import Footer from "./Components/Home/Footer";
 import ContactUs from "./Components/Pages/Contact";
 import AboutUs from "./Components/Pages/AboutUs";
 import Navbar from "./Components/Home/Navbar";
+import OurClients from "./Components/Pages/OurClients";
 
 function App() {
   return (
     <Router>
-      {/* Ensure Router wraps the entire app */}
-      <Navbar /> {/* Navbar is now inside the Router */}
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/our-clients" element={<OurClients />} />
       </Routes>
       <Footer />
     </Router>
