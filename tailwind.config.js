@@ -10,6 +10,7 @@ module.exports = {
       },
       backgroundImage: {
         "Hero-bg": "url('./Assets/Images/Home/Png/Hero-bg.png')",
+        "Service-bg": "url('./Assets/Images/Services/Png/Hero-bg.png')",
         "Enough-bg":
           "url('./Assets/Images/About-Us/Png/Call to Action-bg.png')",
       },

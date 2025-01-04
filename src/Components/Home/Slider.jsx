@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { SliderArrow } from "../Common.jsx/Icons";
+import amit_bishnoi from "../../Assets/Images/Home/Webp/Amit-Bishnoi.webp";
 import sliderone from "../../Assets/Images/Home/Png/Slider.png";
 
 const Slider = () => {
@@ -34,8 +35,8 @@ const Slider = () => {
             <SwiperSlide>
               <div className="flex flex-col items-center justify-center h-full">
                 <img
-                  className="w-[100px] md:w-[120px] lg:w-[150px] h-[100px] md:h-[120px] lg:h-[150px]"
-                  src={sliderone}
+                  className="w-[100px] md:w-[120px] lg:w-[150px] h-[100px] md:h-[120px] lg:h-[150px] rounded-full"
+                  src={amit_bishnoi}
                   alt=""
                 />
                 <h2 className="font-roboto font-semibold text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1282px] mb-0 mt-5 md:mt-[35px]">

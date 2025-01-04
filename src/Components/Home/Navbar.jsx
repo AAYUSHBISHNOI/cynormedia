@@ -56,9 +56,10 @@ const Navbar = () => {
             >
               {[
                 { name: "Home", path: "/" },
+                { name: "Service", path: "/service" },
                 { name: "About Us", path: "/about-us" },
                 { name: "Our Clients", path: "/our-clients" },
-                { name: "Contact Us", path: "/contact-us" }, // Consistent case
+                { name: "Contact Us", path: "/contact-us" },
               ].map((item, index) => (
                 <li key={index}>
                   <Link
