@@ -5,14 +5,18 @@ import WhatWe from "../AboutUs/WhatWe";
 import OurTeam from "../AboutUs/OurTeam";
 import EnoughTalks from "../AboutUs/EnoughTalks";
 import ChooseUs from "../AboutUs/ChooseUs";
+import WhyChooseUs from "../AboutUs/WhyChooseUs";
+import OurMission from "../AboutUs/OurMission";
 
 const AboutUs = () => {
   return (
     <div>
       <ReadyToElevate />
       <Experince />
-      <WhatWe />
+      <WhyChooseUs />
+      {/* <WhatWe /> */}
       {/* <ChooseUs /> */}
+      <OurMission />
       <OurTeam />
       <EnoughTalks />
     </div>
