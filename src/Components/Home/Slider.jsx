@@ -21,7 +21,7 @@ const Slider = () => {
   return (
     <div className="pb-10 md:pb-[103px] pt-[25px]">
       <div className="max-w-[1440px] mx-auto px-4">
-        <div className="w-full h-[511px] bg-[#f4f4f4] rounded-3xl text-center flex flex-col justify-center items-center p-[15px] md:p-[45px] relative">
+        <div className="w-full md:h-[511px] h-[450px] bg-[#f4f4f4] rounded-3xl text-center flex flex-col justify-center items-center p-[15px] sm:p-[20px] md:p-[45px] relative">
           <Swiper
             loop={true}
             navigation={{
@@ -78,10 +78,10 @@ const Slider = () => {
             </SwiperSlide>
           </Swiper>
           {/* Custom arrows */}
-          <button className="custom-prev w-[40px] h-[40px] absolute bottom-10 left-[33%] md:left-[43%] lg:left-[45%] xl:left-[46.5%] cursor-pointer z-20 flex items-center justify-center rotate-180">
+          <button className="custom-prev w-[40px] h-[40px] absolute bottom-5 md:bottom-10 left-[35%] md:left-[43%] lg:left-[45%] xl:left-[46.5%] cursor-pointer z-20 flex items-center justify-center rotate-180">
             <SliderArrow />
           </button>
-          <button className="custom-next w-[40px] h-[40px] absolute bottom-10 right-[33%] md:right-[43%] lg:right-[45%] xl:right-[46.5%] cursor-pointer z-20 flex items-center justify-center">
+          <button className="custom-next w-[40px] h-[40px] absolute bottom-5 md:bottom-10 right-[35%] md:right-[43%] lg:right-[45%] xl:right-[46.5%] cursor-pointer z-20 flex items-center justify-center">
             <SliderArrow />
           </button>
         </div>

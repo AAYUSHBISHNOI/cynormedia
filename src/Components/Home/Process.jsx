@@ -13,8 +13,8 @@ const Process = () => {
             Our Strengths
           </h2>
         </div>
-        <div className="flex flex-wrap justify-between text-center md:text-start mt-14 lg:mt-24">
-          <div className="w-full md:w-1/2 lg:w-[25%]">
+        <div className="flex flex-wrap justify-center lg:justify-between text-center md:text-start mt-14 lg:mt-24">
+          <div className="w-full md:w-1/2 lg:w-[25%] flex justify-center">
             <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[340px] h-full min-h-[222px] rounded-[32px] bg-white relative border-[#ababab] border-4 px-6 lg:px-4 xl:px6 pb-10 pt-10 md:pt-[62px]">
               <div className=" ">
                 <Execution />
@@ -28,7 +28,7 @@ const Process = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-[25%] mt-14 md:mt-0">
+          <div className="w-full md:w-1/2 lg:w-[25%] flex justify-center mt-14 md:mt-0">
             <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[340px] h-full min-h-[222px] rounded-[32px] bg-white relative border-[#ababab] border-4 px-6 lg:px-4 xl:px6 pb-10 pt-10 md:pt-[62px]">
               <Message />
               <p className=" font-roboto text-2xl md:text-3xl lg:text-xl xl:text-3xl text-light_black font-semibold leading-121">
@@ -41,7 +41,7 @@ const Process = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-[25%] mt-14 lg:mt-0">
+          <div className="w-full md:w-1/2 lg:w-[25%] flex justify-center mt-14 lg:mt-0">
             <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[340px] h-full min-h-[222px] rounded-[32px] bg-white relative border-[#ababab] border-4 px-6 lg:px-4 xl:px6 pb-10 pt-10 md:pt-[62px]">
               <Concept />
               <p className=" font-roboto text-2xl md:text-3xl lg:text-xl xl:text-3xl text-light_black font-semibold leading-121">
@@ -55,7 +55,7 @@ const Process = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-[25%] mt-14 lg:mt-0">
+          <div className="w-full md:w-1/2 lg:w-[25%] flex justify-center mt-14 lg:mt-0">
             <div className="w-full max-w-[340px] lg:max-w-[225px] xl:max-w-[340px] h-full min-h-[222px] rounded-[32px] bg-white relative border-[#ababab] border-4 px-6 lg:px-4 xl:px6 pb-10 pt-10 md:pt-[62px]">
               <Feedback />
               <p className=" font-roboto text-2xl md:text-3xl lg:text-xl xl:text-3xl text-light_black font-semibold leading-121">

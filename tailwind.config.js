@@ -30,6 +30,7 @@ module.exports = {
         light_black: "#0c0c0c",
       },
       screens: {
+        xsm:"360px",
         sm: "420px",
       },
     },

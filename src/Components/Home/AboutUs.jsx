@@ -60,11 +60,11 @@ const AboutUs = () => {
   return (
     <div
       ref={sectionRef}
-      className="bg-[#0c0c0c] pt-10 pb-64 md:pb-[450px] lg:pb-[50px] xl:py-[100px] 2xl:pb-0 2xl:h-[80vh] px-4"
+      className="bg-[#0c0c0c] pt-10 pb-64 md:pb-[450px] lg:pb-[50px] xl:py-[100px] 2xl:pb-10 px-4 max-w-[1920px] mx-auto"
     >
       <div className="flex flex-wrap lg:justify-between">
         {/* Slider */}
-        <div className="w-full lg:w-[15%] xl:w-[15%] 2xl:w-[35%] order-1 lg:order-0 mt-8">
+        <div className="w-full lg:w-[15%] xl:w-[15%] 2xl:w-[20%] order-1 lg:order-0 mt-8">
           <div
             id="slider"
             className="relative w-full"
@@ -106,7 +106,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* About Us Content */}
-        <div className="w-full lg:w-[50%] xl:w-[50%] order-0 lg:order-1 text-center lg:text-start flex justify-center lg:justify-start flex-col lg:items-start items-center">
+        <div className="w-full lg:w-[50%] xl:w-[50%] 2xl:w-[50%] order-0 lg:order-1 text-center lg:text-start flex justify-center lg:justify-start flex-col lg:items-start items-center">
           <h2 className="text-[30px] text-light_green font-roboto font-semibold leading-121 mb-0">
             About us
           </h2>

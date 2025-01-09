@@ -12,12 +12,12 @@ const Header = () => {
   return (
     <div className="bg-[#161616] bg-Hero-bg bg-cover bg-center relative">
       <img
-        className="w-[183px] h-[193px] absolute top-[20%] hidden 2xl:flex"
+        className="w-[183px] h-[193px] absolute top-[10%] hidden 2xl:flex"
         src={dots}
         alt=""
       />
 
-      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[130px] py-[40px] md:py-[60px] xl:pt-[100px]">
+      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] py-[40px] md:py-[60px] xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
             <h1 className=" font-roboto text-white text-[27px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">

@@ -111,7 +111,7 @@ const Footer = () => {
               <li className="font-roboto font-semibold text-xl leading-121 text-white">
                 Trusted By
               </li>
-              <li className="flex justify-center items-center gap-4 mt-4">
+              <li className="flex md:justify-center items-center gap-4 mt-4">
                 <li className="w-[80px]">
                   <a href="">
                     <img src={tata} alt="" />
@@ -128,19 +128,25 @@ const Footer = () => {
                   </a>
                 </li>
               </li>
-              <li className="flex lg:justify-center lg:items-center gap-4 mt-4">
+              <li className="flex gap-4 mt-4">
                 <li className="w-[80px]">
                   <a href="">
                     <img src={maruti} alt="" />
                   </a>
                 </li>
-                <li className="w-[80px] flex justify-center items-center">
-                  <a href="">
+                <li className="w-[150px] flex justify-center items-center text-center">
+                  <a
+                    href=""
+                    className="flex justify-center items-center text-center"
+                  >
                     <img src={tata} alt="" />
                   </a>
                 </li>
                 <li className="w-[150px] flex justify-center items-center">
-                  <a href="">
+                  <a
+                    href=""
+                    className="flex justify-center items-center text-center"
+                  >
                     <img src={hero} alt="" />
                   </a>
                 </li>
@@ -158,7 +164,7 @@ const Footer = () => {
               Designed by Iconstica.com
             </p>
           </div>
-          <ul className="mt-4 sm:mt-0">
+          <ul className="mt-4 xsm:mt-0">
             <li className="font-roboto font-semibold text-xl leading-121 text-white mb-0">
               Contact Us
             </li>

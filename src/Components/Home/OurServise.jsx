@@ -4,8 +4,8 @@ import { Btl, Digital, Pen, Pencil, Product, Web } from "../Common.jsx/Icons";
 const OurServise = () => {
   return (
     <div className=" relative">
-      <div className=" absolute -bottom-[6%] left-0 -z-10">
-        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[200px]">
+      <div className=" absolute -bottom-[0.7%] md:-bottom-[4%] lg:-bottom-[6%] left-0 -z-10">
+        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[35px] sm:text-[40px] md:text-[104px] lg:text-[140px] xl:text-[198px]">
           CYNOR MEDIA
         </p>
       </div>
