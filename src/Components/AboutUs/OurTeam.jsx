@@ -5,8 +5,8 @@ import { FacebookTeam, InstagramTeam, LinkTeam } from "../Common.jsx/Icons";
 
 const OurTeam = () => {
   return (
-    <div className="pt-10 md:pt-[77px] pb-20 md:pb-40">
-      <div className=" max-w-[1440px] mx-auto px-4">
+    <div className="pt-10 md:pt-[77px] pb-20 lg:pb-40">
+      <div className=" max-w-[1440px] mx-auto px-4 text-center lg:text-start">
         <h2 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121 text-center">
           Our team
         </h2>

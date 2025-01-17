@@ -16,7 +16,6 @@ const Header = () => {
         src={dots}
         alt=""
       />
-
       <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] py-[40px] md:py-[60px] xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">

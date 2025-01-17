@@ -1,5 +1,5 @@
 import React from "react";
-import Footerlogo from "../../Assets/Images/Home/Png/Hero-logo.png";
+import Footerlogo from "../../Assets/Images/Home/Svg/Footer-Logo.svg";
 import tata from "../../Assets/Images/Home/Svg/Tata-Logo.svg";
 import hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
@@ -12,7 +12,12 @@ const Footer = () => {
       <div className="max-w-[1440px] mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full md:w-[55%] lg:w-[40%]">
-            <img className="w-[150px] h-[45px]" src={Footerlogo} alt="" />
+            <div className="flex items-center gap-2">
+              <img className="" src={Footerlogo} alt="" />
+              <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
+                Cynor Media
+              </p>
+            </div>
             <p className="font-dm font-normal text-base md:text-lg leading-121 text-white mb-0 mt-3 md:mt-6 max-w-[457px] md:max-w-[357px] xl:max-w-[457px]">
               Cynor Media Pvt. Ltd. in Chandigarh provides comprehensive brand
               promotion services, specializing in events, launches, and

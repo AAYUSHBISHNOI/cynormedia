@@ -324,8 +324,7 @@ export const SliderArrow = () => {
 export const SliderArrowAbout = () => {
   return (
     <svg
-      width="94"
-      height="94"
+      className="w-[40px] lg:w-[94px] h-[40px] lg:h-[94px]"
       viewBox="0 0 94 94"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -645,8 +644,7 @@ export const LinkTeam = () => {
 export const Comma = () => {
   return (
     <svg
-      width="86"
-      height="72"
+      className="w-[40px] lg:w-[86px] h-[50px] lg:h-[72px]"
       viewBox="0 0 86 72"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

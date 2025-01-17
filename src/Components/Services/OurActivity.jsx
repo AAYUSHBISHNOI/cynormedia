@@ -24,9 +24,9 @@ const OurActivity = () => {
       <div className=" max-w-[1440px] mx-auto px-4 pt-10 md:pt-[78px]">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 flex justify-center">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={float_van}
                 alt=""
               />
@@ -40,9 +40,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 sm:mt-0">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={btl_marketing}
                 alt=""
               />
@@ -56,9 +56,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={float_setup}
                 alt=""
               />
@@ -72,9 +72,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={market_setup}
                 alt=""
               />
@@ -88,9 +88,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={product_launch}
                 alt=""
               />
@@ -104,9 +104,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={corporate_events}
                 alt=""
               />
@@ -120,9 +120,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={marketing_survey}
                 alt=""
               />
@@ -136,9 +136,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={test_drive}
                 alt=""
               />
@@ -152,9 +152,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={residential}
                 alt=""
               />
@@ -168,9 +168,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={digital_marketing}
                 alt=""
               />
@@ -184,9 +184,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={creative_design}
                 alt=""
               />
@@ -200,9 +200,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={holding}
                 alt=""
               />
@@ -216,9 +216,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={wall_wrap}
                 alt=""
               />
@@ -232,9 +232,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={flex_banner}
                 alt=""
               />
@@ -248,9 +248,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={mug_t_shirt}
                 alt=""
               />
@@ -264,9 +264,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={leaflets}
                 alt=""
               />
@@ -280,9 +280,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={rwa_activations}
                 alt=""
               />
@@ -296,9 +296,9 @@ const OurActivity = () => {
             </div>
           </div>
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
-            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[600px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
+            <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[397px] rounded-2xl"
+                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
                 src={mall_activations}
                 alt=""
               />

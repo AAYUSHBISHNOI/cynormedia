@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../Assets/Images/Home/Png/Hero-logo.png";
+import Logo from "../../Assets/Images/Home/Svg/Footer-Logo.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -42,11 +42,12 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-[50px] md:h-[100px] z-50 relative">
             <div>
               <a href="/" className="z-50 relative">
-                <img
-                  src={Logo}
-                  alt=""
-                  className="w-[188px] h-[32px] md:h-[38px]"
-                />
+                <div className="flex items-center gap-2">
+                  <img className="" src={Logo} alt="" />
+                  <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
+                    Cynor Media
+                  </p>
+                </div>
               </a>
             </div>
             <ul

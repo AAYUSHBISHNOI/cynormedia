@@ -45,23 +45,23 @@ const CounterSection = () => {
   }, [counters]);
 
   return (
-    <div ref={sectionRef} className="bg-[#0c0c0c] py-[140px]">
+    <div ref={sectionRef} className="bg-[#0c0c0c] py-10 lg:py-[140px]">
       <div className="max-w-[1440px] mx-auto px-4">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-[55%]">
+        <div className="flex flex-wrap text-center lg:text-start">
+          <div className="w-full lg:w-[55%] flex flex-col items-center justify-center lg:justify-start lg:items-start">
             <p className="text-[30px] text-light_green font-roboto font-semibold leading-121 mb-0">
               Our Mission
             </p>
-            <h2 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-white leading-121 mt-5 mb-0">
+            <h2 className="font-roboto font-semibold text-[22px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-white leading-121 mt-2 md:mt-5 mb-0">
               Inspiring Connections, Driving Engagement
             </h2>
-            <p className="font-dm font-normal text-lg leading-121 text-white max-w-[603px] mt-8 mb-0">
+            <p className="font-dm font-normal text-lg leading-121 text-white max-w-[603px] mt-5 lg:mt-8 mb-0">
               To deliver tailored BTL marketing solutions that inspire
               connections, drive engagement, and create lasting value for brands
               and their audiences.
             </p>
             {/* Counters in Separate Divs */}
-            <div className="mt-12 flex  gap-10">
+            <div className="mt-6 lg:mt-12 flex gap-10">
               <div className="text-center">
                 <p
                   className="counter font-roboto text-[45px] font-semibold leading-121 text-white mb-0"
@@ -86,19 +86,24 @@ const CounterSection = () => {
                 </p>
               </div>
             </div>
-            <button className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]">
-              <a
-                href=""
-                className=" text-white bg-black py-1 px-3 rounded-full text-xl text-center"
-              >
+            <div className=" flex justify-center lg:justify-start">
+              <button className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]">
+                <a
+                  href=""
+                  className=" text-white bg-black py-1 px-3 rounded-full text-xl text-center"
                 >
-              </a>
-              Start your Free Trial
-            </button>
+                  >
+                </a>
+                Start your Free Trial
+              </button>
+            </div>
           </div>
-        
-          <div className="w-full lg:w-[45%]">
-            <img src={ourmission} alt="" />
+          <div className="w-full lg:w-[45%] mt-6 flex justify-center">
+            <img
+              className="max-w-[450px] xl:max-w-[629px]"
+              src={ourmission}
+              alt=""
+            />
           </div>
         </div>
       </div>

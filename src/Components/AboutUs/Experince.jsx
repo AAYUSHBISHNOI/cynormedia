@@ -17,7 +17,7 @@ const Experince = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-2/4 lg:w-1/3">
+          <div className="w-full md:w-2/4 lg:w-1/3 mt-4 md:mt-0">
             <div className="text-center flex flex-col justify-center items-center">
               <h2 className="font-roboto font-semibold text-2xl md:text-3xl lg:text-[45px] text-light_black leading-121">
                 Expirence
@@ -30,7 +30,7 @@ const Experince = () => {
               </p>
             </div>
           </div>
-          <div className="w-full md:w-2/4 lg:w-1/3 flex justify-end text-end md:mt-6 lg:mt-0">
+          <div className="w-full md:w-2/4 lg:w-1/3 flex justify-end text-end mt-4 md:mt-6 lg:mt-0">
             <div className="text-center flex flex-col justify-center items-center">
               <h2 className="font-roboto font-semibold text-2xl md:text-3xl lg:text-[45px] text-light_black leading-121">
                 Vision
