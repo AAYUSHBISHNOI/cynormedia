@@ -16,10 +16,10 @@ const HeaderOurClients = () => {
           <h1 className="font-roboto font-bold xl:text-[77px] leading-121 text-white text-center">
             Our Clients
           </h1>
-          <div className="flex flex-wrap justify-center xl:justify-between mt-5 xl:mt-32 md:gap-[30px] lg:gap-[20px] xl:gap-[80px]">
+          <div className="flex flex-wrap justify-center xl:justify-between mt-5 xl:mt-32 sm:gap-[20px] md:gap-[30px] lg:gap-[20px] xl:gap-[80px]">
             <img className="w-[188px] h-[143px]" src={imageone} alt="" />
             <img
-              className="w-[188px] h-[143px] mt-3 md:mt-0"
+              className="w-[188px] h-[143px] mt-3 sm:mt-0"
               src={imagetwo}
               alt=""
             />

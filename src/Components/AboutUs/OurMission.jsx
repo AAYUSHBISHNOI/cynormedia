@@ -100,7 +100,7 @@ const CounterSection = () => {
           </div>
           <div className="w-full lg:w-[45%] mt-6 flex justify-center">
             <img
-              className="max-w-[450px] xl:max-w-[629px]"
+              className="md:max-w-[450px] xl:max-w-[629px]"
               src={ourmission}
               alt=""
             />
