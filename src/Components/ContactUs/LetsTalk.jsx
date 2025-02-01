@@ -61,7 +61,7 @@ const LetsTalk = () => {
                         href="mailto:"
                         className="font-dm font-normal text-base leading-121 text-light_black"
                       >
-                        hello@example.com
+                        info@cynormedia.com
                       </a>
                     </li>
                   </ul>
@@ -79,7 +79,7 @@ const LetsTalk = () => {
                         href="tel:+1234567892"
                         className="font-dm font-normal text-base leading-121 text-light_black"
                       >
-                        +123 456 7892
+                        +91 7988709158
                       </a>
                     </li>
                   </ul>
@@ -94,8 +94,10 @@ const LetsTalk = () => {
                   <ul>
                     <li>
                       <a
-                        href="http://"
+                        href="https://www.google.com/maps/place/Cynor+Media/@30.6339145,76.8020573,17z/data=!3m1!4b1!4m6!3m5!1s0x390feb26ec66853b:0x88d9cbbca0721a13!8m2!3d30.6339145!4d76.8046322!16s%2Fg%2F11gdx1w6_2?entry=ttu"
                         className="font-dm font-normal text-base leading-121 text-light_black"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         Open Google Maps
                       </a>
@@ -116,7 +118,7 @@ const LetsTalk = () => {
           <div className="w-full md:w-[58%] mt-8">
             <form
               onSubmit={handleSubmit}
-              className="bg-[#f4f4f4] rounded-[45px] p-6 lg:p-8 xl:p-10 z-10"
+              className="bg-[#f4f4f4] rounded-[20px] p-6 lg:p-8 xl:p-10 z-10"
             >
               <div className="lg:flex flex-wrap justify-between">
                 <div className="w-full lg:w-[46%]">
@@ -198,7 +200,7 @@ const LetsTalk = () => {
               <div className="flex mt-5 lg:mt-[54px]">
                 <button
                   type="submit"
-                  className="font-dm font-normal text-lg leading-121 text-[#fbfbfb] bg-[#0c0c0c] hover:bg-[#bbbbba] duration-300 ease-in-out py-3 px-4 rounded-full"
+                  className="font-dm font-normal text-lg leading-121 text-[#fbfbfb] bg-[#0c0c0c] hover:bg-[#535252] duration-300 ease-in-out py-3 px-4 rounded-full"
                 >
                   Submit Now
                 </button>

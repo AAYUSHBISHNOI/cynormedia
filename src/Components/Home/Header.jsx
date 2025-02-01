@@ -78,7 +78,7 @@ const Header = () => {
           </div>
           <div className="w-full lg:w-6/12 mt-10 flex justify-center">
             <img
-              className="md:w-[520px] lg:w-[480px] xl:w-[720px] md:h-[535px] lg:h-[480px] xl:h-[735px]"
+              className="md:w-[520px] lg:w-[480px] xl:w-[550px] md:h-[520px] lg:h-[480px] xl:h-[550px]"
               src={mainimg}
               alt=""
             />

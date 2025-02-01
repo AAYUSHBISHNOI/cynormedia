@@ -5,6 +5,7 @@ import hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
 import maruti from "../../Assets/Images/Home/Svg/Suzuki-Logo.svg";
 import { Facebook, Instagram, Linkdin } from "../Common.jsx/Icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,21 +27,42 @@ const Footer = () => {
             </p>
           </div>
           <div className="w-full md:w-[20%] lg:w-[15%] xl:w-[15%] mt-5 md:mt-0">
+            {/* <ul className="">
+              {[
+                { name: "Home", path: "/" },
+                { name: "Service", path: "/service" },
+                { name: "About Us", path: "/about-us" },
+                { name: "Our Clients", path: "/our-clients" },
+                { name: "Contact Us", path: "/contact-us" },
+              ].map((item, index) => (
+                <li key={index}>
+                  <Link to={item.path}>{item.name}</Link>
+                </li>
+              ))}
+            </ul> */}
             <ul>
               <li className="font-roboto font-semibold text-xl leading-121 text-white">
                 Pages
               </li>
               <li className="mb-0 mt-2 md:mt-6">
                 <a
-                  href=""
+                  href="/Home"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Home
                 </a>
               </li>
+              <li className="mb-0 mt-2 md:mt-6">
+                <a
+                  href="/Service"
+                  className="font-dm font-normal text-base text-white leading-121"
+                >
+                  Service
+                </a>
+              </li>
               <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href=""
+                  href="/AboutUs"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   About Us
@@ -48,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href=""
+                  href="/OurClients"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Our Clients
@@ -56,7 +78,7 @@ const Footer = () => {
               </li>
               <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href=""
+                  href="/ContactUs"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Contact Us
@@ -166,7 +188,7 @@ const Footer = () => {
               Copyright by
             </p>
             <p className="font-dm font-normal text-base text-white leading-121 mb-0 mt-2 md:mt-4">
-              Designed by Iconstica.com
+              Cynor Media
             </p>
           </div>
           <ul className="mt-4 xsm:mt-0">
@@ -178,7 +200,7 @@ const Footer = () => {
                 href="tel:+91"
                 className="font-dm font-normal text-base text-white leading-121"
               >
-                +0 12 457 4578
+                +91 7988709158
               </a>
             </li>
           </ul>
@@ -187,7 +209,7 @@ const Footer = () => {
               Address
             </p>
             <p className="font-dm font-normal text-[15px] md:text-base text-white leading-121 mb-0 mt-2 md:mt-4">
-              119 Tanglewood Lane Gulfport, MS 39503
+              Opposite Nabha Sahib Gurudwara, VIP road Zirakpur, Punjab, 140603
             </p>
           </div>
           <div className="flex gap-[29px] mt-4 lg:mt-0">

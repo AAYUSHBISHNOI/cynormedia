@@ -77,9 +77,16 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <button className="font-dm hidden md:block font-medium text-lg leading-[126%] text-black hover:text-[#ffa852] bg-[#fff] hover:bg-white duration-500 ease-in-out py-[12px] px-[15px] rounded-full">
-              Get in touch
-            </button>
+            <div className="group">
+              <button
+                className="font-dm hidden md:block font-medium text-lg leading-[126%] 
+    text-black bg-[#fff] py-[12px] px-[15px] rounded-full duration-700 ease-in-out
+    group-hover:text-white group-hover:bg-[#44e6db]"
+              >
+                Get in touch
+              </button>
+            </div>
+
             <button
               className="xl:hidden z-50 transition-all duration-300 ease-in-out sm:mr-[25px]"
               onClick={() => {

@@ -17,7 +17,7 @@ const AboutUs = () => {
       {/* <WhatWe /> */}
       {/* <ChooseUs /> */}
       <OurMission />
-      <OurTeam />
+      {/* <OurTeam /> */}
       <EnoughTalks />
     </div>
   );

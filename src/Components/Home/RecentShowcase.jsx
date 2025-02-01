@@ -1,7 +1,7 @@
 import React from "react";
 import imagone from "../../Assets/Images/Home/Png/Recent-1.png";
-import imagetwo from "../../Assets/Images/Home/Png/Recent-2.png";
-import imagethree from "../../Assets/Images/Home/Png/Recent-3.png";
+import imagetwo from "../../Assets/Images/Home/Webp/Float-Set-up.webp";
+import imagethree from "../../Assets/Images/Home/Webp/Corporate-Event.webp";
 import imagefour from "../../Assets/Images/Home/Png/Recent-4.png";
 
 const RecentShowcase = () => {
@@ -41,7 +41,7 @@ const RecentShowcase = () => {
             </div>
             <div className=" mt-2 md:mt-6 lg:mt-14 xl:mt-[51px]">
               <img
-                className="w-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px]"
+                className="w-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px] rounded-[20px]"
                 src={imagetwo}
                 alt=""
               />
@@ -56,7 +56,7 @@ const RecentShowcase = () => {
           <div className="w-full md:w-3/6 text-center md:text-start mt-5 md:mt-0 md:-translate-y-16">
             <div>
               <img
-                className="w-full h-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px]"
+                className="w-full h-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px] rounded-[20px]"
                 src={imagethree}
                 alt=""
               />
@@ -64,7 +64,7 @@ const RecentShowcase = () => {
                 Corporate Events
               </p>
               <p className="font-dm font-normal text-base md:text-lg text-light_black leading-121 mb-0 mt-1 lg:mt-2.5">
-                Chandigarh
+                Rohtak
               </p>
             </div>
           </div>

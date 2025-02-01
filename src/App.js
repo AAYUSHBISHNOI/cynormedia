@@ -7,6 +7,7 @@ import AboutUs from "./Components/Pages/AboutUs";
 import Navbar from "./Components/Home/Navbar";
 import OurClients from "./Components/Pages/OurClients";
 import Services from "./Components/Pages/Services";
+import BackToTop from "./Components/Common.jsx/BackToTop";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/our-clients" element={<OurClients />} />
       </Routes>
       <Footer />
+      <BackToTop />
     </Router>
   );
 }

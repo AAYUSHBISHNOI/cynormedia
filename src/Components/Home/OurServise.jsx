@@ -1,5 +1,9 @@
 import React from "react";
 import { Btl, Digital, Pen, Pencil, Product, Web } from "../Common.jsx/Icons";
+import floatvan from "../../Assets/Images/Home/Gif/Float-Van.gif";
+import digitalmarketing from "../../Assets/Images/Home/Gif/Digital-Marketing.gif";
+import productlaunch from "../../Assets/Images/Home/Gif/Product-Launch.gif";
+import webdevelopment from "../../Assets/Images/Home/Gif/Web-Development.gif";
 
 const OurServise = () => {
   return (
@@ -13,7 +17,6 @@ const OurServise = () => {
         {/* <div className="circle_gradient_border w-[550px] h-[550px] rounded-full flex items-center justify-center">
           <div className="inner_circle w-full h-full rounded-full"></div>
         </div> */}
-
         <div className=" text-center flex flex-col justify-center items-center">
           <p className=" text-light_green font-semibold leading-130 font-roboto text-2xl md:text-3xl">
             Our Services
@@ -25,7 +28,11 @@ const OurServise = () => {
         <div className="flex mt-4 xl:mt-[80px] flex-wrap justify-center">
           <div className="w-full md:w-1/2 lg:w-2/6 flex justify-center mt-6 md:mt-5 xl:mt-0">
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
-              <Pencil />
+              <img
+                className=" rounded-full h-[80px] w-[80px]"
+                src={floatvan}
+                alt=""
+              />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
                 Float Van Campaign
               </h4>
@@ -51,7 +58,11 @@ const OurServise = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-2/6 flex justify-center mt-6 md:mt-5 xl:mt-0">
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
-              <Digital />
+              <img
+                className=" rounded-full h-[80px] w-[80px]"
+                src={digitalmarketing}
+                alt=""
+              />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
                 Digital Marketing
               </h4>
@@ -64,7 +75,11 @@ const OurServise = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-2/6 flex justify-center mt-6 md:mt-5 xl:mt-[80px]">
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
-              <Web />
+              <img
+                className=" rounded-full h-[80px] w-[80px]"
+                src={webdevelopment}
+                alt=""
+              />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
                 Web Development
               </h4>
@@ -91,7 +106,11 @@ const OurServise = () => {
           </div>
           <div className="w-full md:w-1/2 lg:w-2/6 flex justify-center mt-6 md:mt-5 xl:mt-[80px]">
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
-              <Product />
+              <img
+                className=" rounded-full h-[80px] w-[80px]"
+                src={productlaunch}
+                alt=""
+              />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
                 Product Launch
               </h4>
