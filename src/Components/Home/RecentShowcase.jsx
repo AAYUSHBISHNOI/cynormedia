@@ -1,6 +1,6 @@
 import React from "react";
 import imagone from "../../Assets/Images/Home/Png/Recent-1.png";
-import imagetwo from "../../Assets/Images/Home/Webp/Float-Set-up.webp";
+import imagetwo from "../../Assets/Images/Home/Png/Recent-3.png";
 import imagethree from "../../Assets/Images/Home/Webp/Corporate-Event.webp";
 import imagefour from "../../Assets/Images/Home/Png/Recent-4.png";
 

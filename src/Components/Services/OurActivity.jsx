@@ -1,7 +1,7 @@
 import React from "react";
 import float_van from "../../Assets/Images/Services/Png/Float-Van.png";
 import btl_marketing from "../../Assets/Images/Services/Png/Btl.png";
-import float_setup from "../../Assets/Images/Services/Png/Btl.png";
+import float_setup from "../../Assets/Images/Services/Png/Float-Setup.png";
 import market_setup from "../../Assets/Images/Services/Png/Market-Setup.png";
 import product_launch from "../../Assets/Images/Services/Png/Product-Launch.png";
 import corporate_events from "../../Assets/Images/Services/Png/Corporate.png";
@@ -11,7 +11,7 @@ import residential from "../../Assets/Images/Services/Png/Residential-Campaign.p
 import digital_marketing from "../../Assets/Images/Services/Png/Digital-Marketing.png";
 import creative_design from "../../Assets/Images/Services/Png/Creative-Design.png";
 import holding from "../../Assets/Images/Services/Png/Holding-PAint.png";
-import wall_wrap from "../../Assets/Images/Services/Png/Wall-Wrap.png";
+import wall_wrap from "../../Assets/Images/Services/Png/Wall-Wrap.jpg";
 import flex_banner from "../../Assets/Images/Services/Png/Flex-Banners.png";
 import mug_t_shirt from "../../Assets/Images/Services/Png/Mug-Tshirt.png";
 import leaflets from "../../Assets/Images/Services/Png/Leaflets-Look-Walkers.png";
