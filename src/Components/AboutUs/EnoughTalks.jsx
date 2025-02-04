@@ -9,9 +9,12 @@ const EnoughTalks = () => {
             <h3 className="font-roboto font-semibold text-lg md:text-[25px] xl:text-[45px] text-white leading-121">
               Enough talk, let’s get to work
             </h3>
-            <button className="font-dm font-normal text-base text-light_black leading-121 bg-white py-[14px] px-6 rounded-full mt-4 lg:mt-[34px]">
+            <a
+              href="mailto:info@cynormedia.com"
+              className="font-dm font-normal text-base text-light_black leading-121 bg-white py-[14px] px-6 rounded-full mt-4 lg:mt-[34px]"
+            >
               Get in touch
-            </button>
+            </a>
           </div>
         </div>
       </div>

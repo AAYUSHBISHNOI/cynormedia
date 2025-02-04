@@ -16,6 +16,7 @@ module.exports = {
       },
       boxShadow: {
         lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",  
+        darkblack: "0 5px 5px 0rgba(0, 0, 0, 1)",  
       },
       lineHeight: {
         110: "110%",

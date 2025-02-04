@@ -4,11 +4,11 @@ import gears from "../../Assets/Images/Services/Gifs/Gears-1.gif";
 const OurService = () => {
   return (
     <div className="relative bg-Service-bg bg-cover bg-center">
-      <img
+      {/* <img
         className="w-[750px] h-[750px] absolute  bottom-0"
         src={gears}
         alt=""
-      />
+      /> */}
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-70"></div>

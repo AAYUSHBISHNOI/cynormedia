@@ -29,7 +29,12 @@ const RecentShowcase = () => {
           </div>
           <div className="w-full md:w-3/6 text-center md:text-start flex flex-col items-end justify-end translate-y-1 lg:translate-y-14">
             <div className="hidden md:flex justify-end">
-              <button className=" font-dm text-white text-[20px] font-normal bg-black rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]">
+              <button
+                className=" font-dm text-white text-[20px] font-normal bg-black rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]"
+                onClick={() =>
+                  window.open("https://wa.me/+917988709158", "_blank")
+                }
+              >
                 <a
                   href=""
                   className=" text-black bg-white py-1 px-3 rounded-full text-xl text-center"

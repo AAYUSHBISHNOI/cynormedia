@@ -144,7 +144,10 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
-          <button className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]">
+          <button
+            className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-1.5 px-3 flex justify-center items-center gap-2.5 mt-[32px]"
+            onClick={() => window.open("https://wa.me/+917988709158", "_blank")}
+          >
             <a
               href=""
               className=" text-white bg-black py-1 px-3 rounded-full text-xl text-center"

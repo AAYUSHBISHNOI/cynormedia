@@ -33,7 +33,7 @@ const WhatOurClients = () => {
             <h1 className="font-roboto font-semibold text-center text-[26px] md text-base:lg:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
               What our clients say
             </h1>
-            <div className="flex gap-4 mt-4 lg:mt-0">
+            <div className="flex gap-4 mt-4">
               <button className="custom-prev  cursor-pointer z-20">
                 <SliderArrowAbout />
               </button>
@@ -46,7 +46,7 @@ const WhatOurClients = () => {
 
         {/* Right column with black background and slider overflowing to the left */}
         <div className="relative flex-1 bg-black pb-[200px] md:mb-[180px] lg:mb-0">
-          <div className="absolute -top-[30%] md:-top-[15%] left-[2%] lg:left-[-25%] w-[100%] min-h-[542px] h-full flex justify-center items-center z-10">
+          <div className="absolute -top-[30%] md:-top-[5%] left-[2%] lg:left-[0%] 2xl:left-[5%] w-[100%] min-h-[542px] h-full flex justify-center items-center z-10">
             {/* Overflow content */}
             <Swiper
               loop={true}
@@ -54,14 +54,14 @@ const WhatOurClients = () => {
                 nextEl: ".custom-next",
                 prevEl: ".custom-prev",
               }}
-              slidesPerView={1}
-              spaceBetween={30}
+              slidesPerView={1.9}
+              spaceBetween={10}
               centeredSlides={true}
               modules={[Navigation]}
-              className="mySwiper w-full max-w-[850px] h-full translate-y-[200px]"
+              className="mySwiper h-full translate-y-[200px] w-[850px]"
             >
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -91,8 +91,8 @@ const WhatOurClients = () => {
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -124,8 +124,8 @@ const WhatOurClients = () => {
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -151,8 +151,8 @@ const WhatOurClients = () => {
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -178,8 +178,8 @@ const WhatOurClients = () => {
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -205,8 +205,8 @@ const WhatOurClients = () => {
                   </p>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center h-full max-w-[850px]">
-                <div className="max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl">
+              <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
+                <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl shadow-darkblack">
                   <div className="flex items-center gap-2 lg:gap-7">
                     <img
                       className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"

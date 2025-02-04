@@ -30,10 +30,15 @@ const Header = () => {
               connections and drive business growth.
             </p>
             <div className="mt-3 md:mt-6 xl:mt-[43px]">
-              <button className=" font-dm text-black text-[20px] font-normal bg-white rounded-full py-3 px-6 flex justify-center items-center gap-2.5">
+              <button
+                className="font-dm text-black text-[20px] font-normal bg-white rounded-full py-3 px-6 flex justify-center items-center gap-2.5"
+                onClick={() =>
+                  window.open("https://wa.me/+917988709158", "_blank")
+                }
+              >
                 <a
-                  href=""
-                  className=" text-white bg-black py-1 px-3 rounded-full text-xl text-center"
+                  href="#"
+                  className="text-white bg-black py-1 px-3 rounded-full text-xl text-center"
                 >
                   >
                 </a>
