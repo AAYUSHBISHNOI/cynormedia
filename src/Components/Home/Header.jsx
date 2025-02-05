@@ -6,6 +6,7 @@ import Hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import Jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
 import mainimg from "../../Assets/Images/Home/Png/Hero-main-image.png";
 import dots from "../../Assets/Images/Home/Png/Ornament-Dots.png";
+import eleipse_img from "../../Assets/Images/Home/Png/elipse.jpeg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -82,12 +83,18 @@ const Header = () => {
             </div>
           </div>
           <div className="w-full lg:w-6/12 mt-10 flex justify-center">
-            <img
-              className="md:w-[520px] lg:w-[480px] xl:w-[550px] md:h-[520px] lg:h-[480px] xl:h-[550px]"
-              src={mainimg}
-              alt=""
-            />
-
+            <div className="relative">
+              <img
+                className="md:w-[520px] lg:w-[480px] xl:w-[550px] md:h-[520px] lg:h-[480px] xl:h-[550px]"
+                src={mainimg}
+                alt=""
+              />
+              <img
+                className="absolute top-[5%] w-full h-full blur-3xl"
+                src={eleipse_img}
+                alt=""
+              />
+            </div>
             {/* <div className="w-[450px] h-[450px] rounded-full bg-transparent custom-border"></div> */}
           </div>
         </div>
