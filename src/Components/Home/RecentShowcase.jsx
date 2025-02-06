@@ -6,7 +6,7 @@ import imagefour from "../../Assets/Images/Home/Png/Recent-4.png";
 
 const RecentShowcase = () => {
   return (
-    <div className="py-10 md:py-20">
+    <div className="py-10 md:py-20 lg:pt-0">
       <div className=" max-w-[1440px] mx-auto px-4">
         <h2 className=" text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] font-roboto font-semibold leading-121 text-light_black text-center">
           Recent Showcase

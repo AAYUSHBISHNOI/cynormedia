@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { SliderArrow } from "../Common.jsx/Icons";
 import amit_bishnoi from "../../Assets/Images/Home/Webp/Amit-Bishnoi.webp";
-import sliderone from "../../Assets/Images/Home/Png/Slider.png";
+import sliderone from "../../Assets/Images/Home/Png/Co-Founder.jpg";
 
 const Slider = () => {
   useEffect(() => {

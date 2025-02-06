@@ -6,18 +6,19 @@ import Hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import Jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
 import mainimg from "../../Assets/Images/Home/Png/Hero-main-image.png";
 import dots from "../../Assets/Images/Home/Png/Ornament-Dots.png";
-import eleipse_img from "../../Assets/Images/Home/Png/elipse.jpeg";
+import eleipse_img from "../../Assets/Images/Home/Png/Ellipse-Hero.png";
 import { Link } from "react-router-dom";
+import { HomeEllipse } from "../Common.jsx/Icons";
 
 const Header = () => {
   return (
-    <div className="bg-[#161616] bg-Hero-bg bg-cover bg-center relative">
+    <div className="bg-[#161616] bg-Hero-bg bg-cover bg-center relative overflow-hidden">
       <img
         className="w-[183px] h-[193px] absolute top-[10%] hidden 2xl:flex"
         src={dots}
         alt=""
       />
-      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] py-[40px] md:py-[60px] xl:pt-[90px]">
+      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-20 md:pt-[60px] md:pb-28 xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
             <h1 className=" font-roboto text-white text-[27px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
@@ -82,15 +83,15 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-6/12 mt-10 flex justify-center">
+          <div className="w-full lg:w-6/12 mt-16 md:mt-20 lg:mt-0 flex justify-center">
             <div className="relative">
               <img
-                className="md:w-[520px] lg:w-[480px] xl:w-[550px] md:h-[520px] lg:h-[480px] xl:h-[550px]"
+                className="w-[230px] md:w-[450px] lg:w-[420px] xl:w-[550px] md:h-[450px] lg:h-[420px] xl:h-[550px] lg:me-4 xl:me-0"
                 src={mainimg}
                 alt=""
               />
               <img
-                className="absolute top-[5%] w-full h-full blur-3xl"
+                className="absolute -top-[63%] md:-top-[62%] lg:-top-[61%] xl:-top-[63%] -right-[63%] md:-right-[62%] lg:-right-[54.5%] xl:-right-[63%] max-w-[520px] md:max-w-[1010px] lg:max-w-[930px] xl:max-w-[1250px] xl:min-h-[850px] "
                 src={eleipse_img}
                 alt=""
               />

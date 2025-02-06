@@ -15,8 +15,8 @@ module.exports = {
           "url('./Assets/Images/About-Us/Png/Call to Action-bg.png')",
       },
       boxShadow: {
-        lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",  
-        darkblack: "0 5px 5px 0rgba(0, 0, 0, 1)",  
+        lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",
+        darkblack: "0 5px 5px 0rgba(0, 0, 0, 1)",
       },
       lineHeight: {
         110: "110%",
@@ -31,8 +31,9 @@ module.exports = {
         light_black: "#0c0c0c",
       },
       screens: {
-        xsm:"360px",
+        xsm: "360px",
         sm: "440px",
+        xxl: "1490px",
       },
     },
   },

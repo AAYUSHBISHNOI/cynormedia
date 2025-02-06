@@ -14,10 +14,12 @@ const Footer = () => {
         <div className="flex flex-wrap">
           <div className="w-full md:w-[55%] lg:w-[40%]">
             <div className="flex items-center gap-2">
-              <img className="" src={Footerlogo} alt="" />
-              <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
-                Cynor Media
-              </p>
+              <a href="" className="flex items-center gap-2">
+                <img className="" src={Footerlogo} alt="" />
+                <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
+                  Cynor Media
+                </p>
+              </a>
             </div>
             <p className="font-dm font-normal text-base md:text-lg leading-121 text-white mb-0 mt-3 md:mt-6 max-w-[457px] md:max-w-[357px] xl:max-w-[457px]">
               Cynor Media Pvt. Ltd. in Chandigarh provides comprehensive brand
@@ -46,7 +48,7 @@ const Footer = () => {
               </li>
               <li className="mb-0 mt-2 md:mt-6">
                 <a
-                  href="/Home"
+                  href="/"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Home
@@ -62,23 +64,23 @@ const Footer = () => {
               </li>
               <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href="/AboutUs"
+                  href="/about-us"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   About Us
                 </a>
               </li>
-              <li className="mb-0 mt-1 md:mt-4">
+              {/* <li className="mb-0 mt-1 md:mt-4">
                 <a
                   href="/OurClients"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Our Clients
                 </a>
-              </li>
+              </li> */}
               <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href="/ContactUs"
+                  href="/contact-us"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Contact Us
@@ -138,22 +140,22 @@ const Footer = () => {
               <li className="font-roboto font-semibold text-xl leading-121 text-white">
                 Trusted By
               </li>
-              <li className="flex md:justify-center items-center gap-4 mt-4">
+              <li className="flex  gap-4 mt-4">
                 <li className="w-[80px]">
                   <a href="">
                     <img src={tata} alt="" />
                   </a>
                 </li>
-                <li className="w-[150px] flex justify-center items-center">
+                <li className="w-[150px]">
                   <a href="">
                     <img src={hero} alt="" />
                   </a>
                 </li>
-                <li className="w-[150px] flex justify-center items-center">
+                {/* <li className="w-[150px] flex justify-center items-center">
                   <a href="">
                     <img src={jhondeere} alt="" />
                   </a>
-                </li>
+                </li> */}
               </li>
               <li className="flex gap-4 mt-4">
                 <li className="w-[80px]">
@@ -161,22 +163,27 @@ const Footer = () => {
                     <img src={maruti} alt="" />
                   </a>
                 </li>
-                <li className="w-[150px] flex justify-center items-center text-center">
+                <li className="w-[150px] flex justify-center items-center">
+                  <a href="">
+                    <img src={jhondeere} alt="" />
+                  </a>
+                </li>
+                {/* <li className="w-[150px] flex justify-center items-center text-center">
                   <a
                     href=""
                     className="flex justify-center items-center text-center"
                   >
                     <img src={tata} alt="" />
                   </a>
-                </li>
-                <li className="w-[150px] flex justify-center items-center">
+                </li> */}
+                {/* <li className="w-[150px] flex justify-center items-center">
                   <a
                     href=""
                     className="flex justify-center items-center text-center"
                   >
                     <img src={hero} alt="" />
                   </a>
-                </li>
+                </li> */}
               </li>
             </ul>
           </div>
@@ -212,11 +219,11 @@ const Footer = () => {
               Opposite Nabha Sahib Gurudwara, VIP road Zirakpur, Punjab, 140603
             </p>
           </div>
-          <div className="flex gap-[29px] mt-4 lg:mt-0">
+          {/* <div className="flex gap-[29px] mt-4 lg:mt-0">
             <Instagram />
             <Facebook />
             <Linkdin />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

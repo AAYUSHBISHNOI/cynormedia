@@ -59,7 +59,7 @@ const Navbar = () => {
                 { name: "Home", path: "/" },
                 { name: "Service", path: "/service" },
                 { name: "About Us", path: "/about-us" },
-                { name: "Our Clients", path: "/our-clients" },
+                // { name: "Our Clients", path: "/our-clients" },
                 { name: "Contact Us", path: "/contact-us" },
               ].map((item, index) => (
                 <li key={index}>
@@ -82,6 +82,9 @@ const Navbar = () => {
                 className="font-dm hidden md:block font-medium text-lg leading-[126%] 
     text-black bg-[#fff] py-[12px] px-[15px] rounded-full duration-700 ease-in-out
     group-hover:text-white group-hover:bg-[#44e6db]"
+                onClick={() =>
+                  window.open("https://wa.me/+917988709158", "_blank")
+                }
               >
                 Get in touch
               </button>

@@ -35,7 +35,7 @@ const ReadyToElevate = () => {
   const rating = 3;
   return (
     <div className="my-10 lg:mt-[63px] lg:mb-24 px-4">
-      <div className="max-w-[1440px] h-[52vh] xsm:h-[63vh] sm:h-[50vh] md:h-[63vh] lg:h-[50vh] xl:h-[65vh] 2xl:h-[70vh] mx-auto py-5 px-3 lg:ps-20 lg:pt-7 lg:pb-28 bg-[#0c0c0c] rounded-3xl">
+      <div className="max-w-[1440px] h-[52vh] xsm:h-[70vh] sm:h-[60vh] md:h-[63vh] lg:h-[50vh] xl:h-[68vh] xxl:h-[78vh] 2xl:h-[75vh] mx-auto py-5 px-3 lg:ps-20 lg:pt-7 lg:pb-28 bg-[#0c0c0c] rounded-3xl">
         <div className="flex flex-wrap justify-center items-center lg:justify-between">
           {/* About Us Content */}
           <div className="w-full lg:w-[40%] text-center lg:text-start">

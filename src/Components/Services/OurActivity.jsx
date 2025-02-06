@@ -218,7 +218,7 @@ const OurActivity = () => {
           <div className="w-full md:w-1/2 flex justify-center mt-5 xl:mt-[52px]">
             <div className="w-full h-full max-w-[310px] lg:max-w-[470px] xl:max-w-[680px] min-h-[330px] lg:min-h-[540px] xl:min-h-[623px] bg-[#ffffff] rounded-2xl transition duration-1000 hover:shadow-lightblack p-3 lg:p-6">
               <img
-                className="max-w-[265px] md:max-w-[285px] lg:max-w-[425px] xl:max-w-[632px] min-h-[210px] lg:min-h-[325px] rounded-2xl"
+                className="w-[265px] md:w-[285px] lg:w-[425px] xl:w-[632px] h-[210px] lg:h-[325px] xl:h-[398px] rounded-2xl"
                 src={wall_wrap}
                 alt=""
               />
