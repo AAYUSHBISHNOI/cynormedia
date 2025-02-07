@@ -1,12 +1,12 @@
 import React from "react";
-import imageone from "../../Assets/Images/OurClients/Png/Client-1.png";
-import imagetwo from "../../Assets/Images/OurClients/Png/Client-2.png";
-import imagethree from "../../Assets/Images/OurClients/Png/Client-3.png";
-import imagefour from "../../Assets/Images/OurClients/Png/Client-4.png";
-import imagefive from "../../Assets/Images/OurClients/Png/Client-5.png";
-import imagesix from "../../Assets/Images/OurClients/Png/Client-6.png";
-import imageseven from "../../Assets/Images/OurClients/Png/Client-7.png";
-import imageseight from "../../Assets/Images/OurClients/Png/Client-8.png";
+import imageone from "../../Assets/Images/OurClients/Png/Tata.png";
+import imagetwo from "../../Assets/Images/OurClients/Png/Maruti-Suzuki.png";
+import imagethree from "../../Assets/Images/OurClients/Png/Hero.png";
+import imagefour from "../../Assets/Images/OurClients/Svg/Tafe.svg";
+import imagefive from "../../Assets/Images/OurClients/Png/Tvs.png";
+import imagesix from "../../Assets/Images/OurClients/Png/Kubota.png";
+import imageseven from "../../Assets/Images/OurClients/Png/rJhon-Deere.png";
+import imageseight from "../../Assets/Images/OurClients/Png/Epson.png";
 
 const HeaderOurClients = () => {
   return (
@@ -16,41 +16,41 @@ const HeaderOurClients = () => {
           <h1 className="font-roboto font-bold xl:text-[77px] leading-121 text-white text-center">
             Our Clients
           </h1>
-          <div className="flex flex-wrap justify-center xl:justify-between mt-5 xl:mt-32 sm:gap-[20px] md:gap-[30px] lg:gap-[20px] xl:gap-[80px]">
-            <img className="w-[188px] h-[143px] invert" src={imageone} alt="" />
+          <div className="flex flex-wrap justify-center items-center xl:justify-between mt-5 xl:mt-32 sm:gap-[20px] md:gap-[30px] lg:gap-[20px] xl:gap-[80px]">
+            <img className="w-[150px] h-[120px]" src={imageone} alt="" />
             <img
-              className="w-[188px] invert h-[143px] mt-3 sm:mt-0"
+              className="w-[150px] h-[120px] mt-3 sm:mt-0"
               src={imagetwo}
               alt=""
             />
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[45px] mt-3 md:mt-0"
               src={imagethree}
               alt=""
             />
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[143px] mt-3 md:mt-0"
               src={imagefour}
               alt=""
             />
 
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[45px] mt-3 md:mt-0"
               src={imagefive}
               alt=""
             />
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[45px] mt-3 md:mt-0"
               src={imagesix}
               alt=""
             />
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[90px] mt-3 md:mt-0"
               src={imageseven}
               alt=""
             />
             <img
-              className="w-[188px] invert h-[143px] mt-3 md:mt-0"
+              className="w-[150px] h-[45px] mt-3 md:mt-0"
               src={imageseight}
               alt=""
             />
