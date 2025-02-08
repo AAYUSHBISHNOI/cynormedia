@@ -70,14 +70,14 @@ const Footer = () => {
                   About Us
                 </a>
               </li>
-              {/* <li className="mb-0 mt-1 md:mt-4">
+              <li className="mb-0 mt-1 md:mt-4">
                 <a
-                  href="/OurClients"
+                  href="/our-clients"
                   className="font-dm font-normal text-base text-white leading-121"
                 >
                   Our Clients
                 </a>
-              </li> */}
+              </li>
               <li className="mb-0 mt-1 md:mt-4">
                 <a
                   href="/contact-us"

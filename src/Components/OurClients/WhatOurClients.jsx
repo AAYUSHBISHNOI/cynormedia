@@ -25,43 +25,62 @@ const WhatOurClients = () => {
   }, []);
 
   return (
-    <div className="pb-20 md:pb-0 lg:pb-20 mx-auto overflow-hidden">
-      <div className="flex flex-col md:flex-row flex-wrap h-[742px] px-3">
-        {/* Left column with white background */}
-        <div className="flex-1 bg-white max-w-[1320px] mx-auto">
-          <div className="flex  justify-center md:justify-between items-center md:items-start">
-            <h1 className="font-roboto font-semibold text-center text-[26px] md text-base:lg:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
-              What our clients say
-            </h1>
-            <div className="flex gap-4 mt-4">
-              <button className="custom-prev  cursor-pointer z-20">
-                <SliderArrowAbout />
-              </button>
-              <button className="custom-next  cursor-pointer z-20 rotate-180">
-                <SliderArrowAbout />
-              </button>
-            </div>
+    <div className="pt-10 md:pt-4 pb-5 md:pb-0 mx-auto overflow-hidden">
+      <div className="max-w-[1320px] px-4 mx-auto">
+        <div className="flex flex-wrap justify-center md:justify-between items-center md:items-start">
+          <h1 className="font-roboto font-semibold text-center text-[26px] md text-base:lg:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
+            What our clients say
+          </h1>
+          <div className="flex gap-4 mt-4">
+            <button className="custom-prev  cursor-pointer z-20">
+              <SliderArrowAbout />
+            </button>
+            <button className="custom-next  cursor-pointer z-20 rotate-180">
+              <SliderArrowAbout />
+            </button>
           </div>
         </div>
+      </div>
 
-        {/* Right column with black background and slider overflowing to the left */}
-        {/* <div className="relative flex-1 bg-black pb-[200px] md:mb-[180px] lg:mb-0"> */}
-        {/* <div className=" absolute -top-[30%] md:-top-[5%] left-[2%] lg:left-[0%] 2xl:left-[5%] w-[100%] min-h-[542px] h-full flex justify-center items-center z-10"> */}
-        {/* Overflow content */}
+      <div className="flex justify-center items-center md:pt-5">
         <Swiper
+          slidesPerView={1.1}
+          spaceBetween={30}
           loop={true}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2.3,
+              spaceBetween: 10,
+            },
+            1024: {
+              slidesPerView: 1.4,
+              spaceBetween: 10,
+            },
+            1200: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            1490: {
+              slidesPerView: 2.6,
+              spaceBetween: 10,
+            },
+          }}
           navigation={{
             nextEl: ".custom-next",
             prevEl: ".custom-prev",
           }}
-          slidesPerView={1.9}
-          spaceBetween={10}
-          centeredSlides={true}
           modules={[Navigation]}
-          className="mySwiper h-full  mt-10 -translate-x- w-full "
+          className="mySwiper"
         >
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          <SwiperSlide className="pb-7">
+            <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -91,8 +110,8 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          <SwiperSlide className="pb-7">
+            <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -114,8 +133,7 @@ const WhatOurClients = () => {
               </div>
               <p className="font-dm font-normal text-base lg:text-2xl leading-121 text-[#0c0c0c] max-w-[530px] mt-3 lg:mt-9 mb-0">
                 “ Big Ideas that will Change your Business" Our experience over
-                the past few years has been very enjoyable They are very
-                knowledgeable about the market.
+                the past few years has been very enjoyable
                 <span className="block">
                   It has been such a pleasure to work with Cynor media on
                   multiple projects. The team is rich with talent and
@@ -124,8 +142,8 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          <SwiperSlide className="pb-7">
+            <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -151,8 +169,8 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          <SwiperSlide className="pb-7">
+            <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -178,8 +196,8 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          <SwiperSlide className="pb-7">
+            <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -205,8 +223,8 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]">
-            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] min-h-[360px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
+          {/* <SwiperSlide>
+            <div className="w-[671px] max-w-[280px] md:max-w-[350px] lg:max-w-[671px] h-full min-h-[270px] md:min-h-[360px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
@@ -234,8 +252,30 @@ const WhatOurClients = () => {
                 <span className="block"> Thnx Cynor Media</span>
               </p>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
+        {/* Right column with black background and slider overflowing to the left */}
+        {/* <div className="relative flex-1 bg-black pb-[200px] md:mb-[180px] lg:mb-0"> */}
+        {/* <div className=" absolute -top-[30%] md:-top-[5%] left-[2%] lg:left-[0%] 2xl:left-[5%] w-[100%] min-h-[542px] h-full flex justify-center items-center z-10"> */}
+        {/* Overflow content */}
+        {/* <Swiper
+          loop={true}
+          navigation={{
+            nextEl: ".custom-next",
+            prevEl: ".custom-prev",
+          }}
+          slidesPerView={1.9}
+          spaceBetween={10}
+          centeredSlides={true}
+          modules={[Navigation]}
+          className="mySwiper h-full  mt-10 -translate-x- w-full "
+        >
+          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]"></SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]"></SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]"></SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]"></SwiperSlide>
+          <SwiperSlide className="flex justify-center items-center h-full !w-[700px]"></SwiperSlide>
+        </Swiper> */}
         {/* </div> */}
         {/* </div> */}
       </div>
