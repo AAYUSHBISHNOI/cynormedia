@@ -142,11 +142,11 @@ const LetsTalk = () => {
             </div>
 
             <div className="w-[280px] lg:w-[285px] xl:w-[401px] h-[2px] bg-[#dfdfdf] mt-4 md:mt-8"></div>
-            <div className="flex gap-10 mt-4">
+            {/* <div className="flex gap-10 mt-4">
               <FacebookContact />
               <InstagramContact />
               <LinkdinContact />
-            </div>
+            </div> */}
           </div>
 
           {/* Contact Form */}

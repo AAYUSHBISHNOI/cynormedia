@@ -1,8 +1,8 @@
 import React from "react";
-import imagone from "../../Assets/Images/Home/Png/Recent-1.png";
-import imagetwo from "../../Assets/Images/Home/Png/Recent-3.png";
+import imagone from "../../Assets/Images/Home/Webp/Recent-1.webp";
+import imagetwo from "../../Assets/Images/Home/Webp/Recent-3.webp";
 import imagethree from "../../Assets/Images/Home/Webp/Corporate-Event.webp";
-import imagefour from "../../Assets/Images/Home/Png/Recent-4.png";
+import imagefour from "../../Assets/Images/Home/Webp/Recent-4.webp";
 
 const RecentShowcase = () => {
   return (

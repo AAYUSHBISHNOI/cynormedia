@@ -9,10 +9,10 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        "Hero-bg": "url('./Assets/Images/Home/Png/Hero-bg.png')",
-        "Service-bg": "url('./Assets/Images/Services/Png/Hero-bg.png')",
+        "Hero-bg": "url('./Assets/Images/Home/Webp/Hero-bg.webp')",
+        "Service-bg": "url('./Assets/Images/Services/Webp/Hero-bg.webp')",
         "Enough-bg":
-          "url('./Assets/Images/About-Us/Png/Call to Action-bg.png')",
+          "url('./Assets/Images/About-Us/Webp/Call to Action-bg.webp')",
       },
       boxShadow: {
         lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",

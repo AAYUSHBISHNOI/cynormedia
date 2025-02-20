@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../Assets/Images/Home/Png/Hero-logo.png";
 import tata from "../../Assets/Images/Home/Svg/Tata-Logo.svg";
 import Suzuki from "../../Assets/Images/Home/Svg/Suzuki-Logo.svg";
 import Hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import Jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
-import mainimg from "../../Assets/Images/Home/Png/Hero-main-image.png";
-import dots from "../../Assets/Images/Home/Png/Ornament-Dots.png";
-import eleipse_img from "../../Assets/Images/Home/Png/Ellipse-Hero.png";
+import mainimg from "../../Assets/Images/Home/Webp/Hero-main-image.webp";
+import dots from "../../Assets/Images/Home/Webp/Ornament-Dots.webp";
+import eleipse_img from "../../Assets/Images/Home/Webp/Ellipse-Hero.webp";
 import { Link } from "react-router-dom";
 import { HomeEllipse } from "../Common.jsx/Icons";
 
@@ -22,11 +21,11 @@ const Header = () => {
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
             <h1 className=" font-roboto text-white text-[27px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
-              We Ignite Bold Ideas Through Dynamic Brainstorming, Elevating Your
+              We Ignite Bold Ideas Through Dynamic Brainstorming, Boosting Your
               Brand to New Heights
             </h1>
             <p className="font-dm font-normal text-[16px] md:text-lg text-[#dedede] leading-121 mt-3 md:mt-4 xl:mt-6 md:max-w-[600px] lg:max-w-[432px] xl:max-w-[517px]">
-              Unlock your brand's full potential with us. Our collaborative
+              Reveal your brand's full potential with us. Our collaborative
               approach combines creative vision with data-driven insights,
               delivering tailored marketing solutions that spark meaningful
               connections and drive business growth.

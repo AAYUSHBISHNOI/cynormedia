@@ -109,7 +109,7 @@ const OurServise = () => {
             <div className="w-full max-w-[310px] md:max-w-[346px] lg:max-w-[308px] xl:max-w-[422px] text-center justify-center items-center flex flex-col md:text-start md:justify-start md:items-start h-full min-h-[300px] md:min-h-[272px] lg:min-h-[308px] xl:min-h-[416px] bg-[#f4f4f4] hover:bg-[#0c0c0c] group transition-all duration-500 ease-in-out rounded-[20px] px-[25px] xl:px-[35px] py-[25px] lg:py-[45px]">
               <Btl />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
-                Btl Marketing
+                BTL Marketing
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[408px]">
                 BTL marketing targets specific audiences through events,

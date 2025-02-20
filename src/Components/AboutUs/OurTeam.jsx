@@ -1,6 +1,6 @@
 import React from "react";
-import imageone from "../../Assets/Images/About-Us/Png/team-1.png";
-import imagetwo from "../../Assets/Images/About-Us/Png/team-2.png";
+import imageone from "../../Assets/Images/About-Us/Webp/Team-1.webp";
+import imagetwo from "../../Assets/Images/About-Us/Webp/Team-2.webp";
 import { FacebookTeam, InstagramTeam, LinkTeam } from "../Common.jsx/Icons";
 
 const OurTeam = () => {

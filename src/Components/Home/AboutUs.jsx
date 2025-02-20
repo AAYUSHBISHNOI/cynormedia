@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import imgone from "../../Assets/Images/Home/Png/Slider-2.png";
-import imgtwo from "../../Assets/Images/Home/Png/Slider-3.png";
-import imgthree from "../../Assets/Images/Home/Png/Slider-1.png";
+import imgone from "../../Assets/Images/Home/Webp/Slider-1.webp";
+import imgtwo from "../../Assets/Images/Home/Webp/Slider-2.webp";
+import imgthree from "../../Assets/Images/Home/Webp/Slider-3.webp";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -106,7 +106,7 @@ const AboutUs = () => {
           </div>
         </div>
         {/* About Us Content */}
-        <div className="w-full lg:w-[50%] xl:w-[50%] 2xl:w-[50%] order-0 lg:order-1 text-center lg:text-start flex justify-center lg:justify-start flex-col lg:items-start items-center">
+        <div className="w-full lg:w-[50%] xl:w-[45%] 2xl:w-[50%] order-0 lg:order-1 text-center lg:text-start flex justify-center lg:justify-start flex-col lg:items-start items-center">
           <h2 className="text-[30px] text-light_green font-roboto font-semibold leading-121 mb-0">
             About us
           </h2>

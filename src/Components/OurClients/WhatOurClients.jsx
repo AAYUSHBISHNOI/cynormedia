@@ -7,11 +7,11 @@ import { Comma, SliderArrowAbout } from "../Common.jsx/Icons";
 import manish from "../../Assets/Images/OurClients/Webp/Manish.webp";
 import star_image from "../../Assets/Images/OurClients/Svg/Star.svg";
 import Sandy from "../../Assets/Images/OurClients/Webp/Sandy-Bishnoi.webp";
-import rocky from "../../Assets/Images/OurClients/Png/Rocky.png";
-import akash from "../../Assets/Images/OurClients/Png/Aakash.png";
-import gulam from "../../Assets/Images/OurClients/Png/Gulam.png";
-import vipin from "../../Assets/Images/OurClients/Png/Vipin.png";
-import gurmesh from "../../Assets/Images/OurClients/Png/Gurmesh.png";
+import rocky from "../../Assets/Images/OurClients/Webp/Rocky.webp";
+import akash from "../../Assets/Images/OurClients/Webp/Aakash.webp";
+import gulam from "../../Assets/Images/OurClients/Webp/Gulam.webp";
+import vipin from "../../Assets/Images/OurClients/Webp/Vipin.webp";
+import gurmesh from "../../Assets/Images/OurClients/Webp/Gurmesh.webp";
 
 const WhatOurClients = () => {
   useEffect(() => {
@@ -79,7 +79,7 @@ const WhatOurClients = () => {
           modules={[Navigation]}
           className="mySwiper"
         >
-          <SwiperSlide className="pb-7">
+          <SwiperSlide className="pb-7 lg:pb-16">
             <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
@@ -110,7 +110,7 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-7">
+          <SwiperSlide className="pb-7 lg:pb-16">
             <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
@@ -142,7 +142,7 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-7">
+          <SwiperSlide className="pb-7 lg:pb-16">
             <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
@@ -169,7 +169,7 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-7">
+          <SwiperSlide className="pb-7 lg:pb-16">
             <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img
@@ -196,7 +196,7 @@ const WhatOurClients = () => {
               </p>
             </div>
           </SwiperSlide>
-          <SwiperSlide className="pb-7">
+          <SwiperSlide className="pb-7 lg:pb-16">
             <div className="w-full max-w-[300px] lg:max-w-[671px] h-full min-h-[280px] lg:min-h-[428px] shadow-xl bg-[#fff] px-3 lg:px-[36px] py-[33px] rounded-2xl hover:shadow-2xl ">
               <div className="flex items-center gap-2 lg:gap-7">
                 <img

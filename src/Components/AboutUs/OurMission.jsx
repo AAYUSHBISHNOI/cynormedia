@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import ourmission from "../../Assets/Images/About-Us/Png/OurMission.png";
+import ourmission from "../../Assets/Images/About-Us/Webp/OurMission.webp";
 
 const CounterSection = () => {
   const sectionRef = useRef(null);

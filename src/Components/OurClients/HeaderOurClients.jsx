@@ -1,12 +1,12 @@
 import React from "react";
-import imageone from "../../Assets/Images/OurClients/Png/Tata.png";
-import imagetwo from "../../Assets/Images/OurClients/Png/Maruti-Suzuki.png";
-import imagethree from "../../Assets/Images/OurClients/Png/Hero.png";
+import imageone from "../../Assets/Images/OurClients/Webp/Tata.webp";
+import imagetwo from "../../Assets/Images/OurClients/Webp/Maruti-Suzuki.webp";
+import imagethree from "../../Assets/Images/OurClients/Webp/Hero.webp";
 import imagefour from "../../Assets/Images/OurClients/Svg/Tafe.svg";
-import imagefive from "../../Assets/Images/OurClients/Png/Tvs.png";
-import imagesix from "../../Assets/Images/OurClients/Png/Kubota.png";
-import imageseven from "../../Assets/Images/OurClients/Png/rJhon-Deere.png";
-import imageseight from "../../Assets/Images/OurClients/Png/Epson.png";
+import imagefive from "../../Assets/Images/OurClients/Webp/Tvs.webp";
+import imagesix from "../../Assets/Images/OurClients/Webp/Kubota.webp";
+import imageseven from "../../Assets/Images/OurClients/Webp/Jhon-Deere.webp";
+import imageseight from "../../Assets/Images/OurClients/Webp/Epson.webp";
 
 const HeaderOurClients = () => {
   return (
@@ -26,7 +26,7 @@ const HeaderOurClients = () => {
             </div>
             <div>
               <img
-                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
+                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[125px] min-h-[90px] xl:min-h-[70px]"
                 src={imagetwo}
                 alt=""
               />
@@ -40,14 +40,14 @@ const HeaderOurClients = () => {
             </div>
             <div>
               <img
-                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
+                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[45px]"
                 src={imagethree}
                 alt=""
               />
             </div>
             <div>
               <img
-                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
+                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[45px]"
                 src={imagefour}
                 alt=""
               />
@@ -66,7 +66,6 @@ const HeaderOurClients = () => {
                 alt=""
               />
             </div>
-
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[40px] mt-3"

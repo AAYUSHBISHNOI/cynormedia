@@ -1,22 +1,22 @@
 import React from "react";
-import float_van from "../../Assets/Images/Services/Png/Float-Van.png";
-import btl_marketing from "../../Assets/Images/Services/Png/Btl.png";
-import float_setup from "../../Assets/Images/Services/Png/Float-Setup.png";
-import market_setup from "../../Assets/Images/Services/Png/Market-Setup.png";
-import product_launch from "../../Assets/Images/Services/Png/Product-Launch.png";
-import corporate_events from "../../Assets/Images/Services/Png/Corporate.png";
-import marketing_survey from "../../Assets/Images/Services/Png/Marketing- Survey.png";
-import test_drive from "../../Assets/Images/Services/Png/Test-Drive.png";
-import residential from "../../Assets/Images/Services/Png/Residential-Campaign.png";
-import digital_marketing from "../../Assets/Images/Services/Png/Digital-Marketing.png";
-import creative_design from "../../Assets/Images/Services/Png/Creative-Design.png";
-import holding from "../../Assets/Images/Services/Png/Holding-PAint.png";
-import wall_wrap from "../../Assets/Images/Services/Png/Wall-Wrap.jpg";
-import flex_banner from "../../Assets/Images/Services/Png/Flex-Banners.png";
-import mug_t_shirt from "../../Assets/Images/Services/Png/Mug-Tshirt.png";
-import leaflets from "../../Assets/Images/Services/Png/Leaflets-Look-Walkers.png";
-import rwa_activations from "../../Assets/Images/Services/Png/Rwa-Activation.png";
-import mall_activations from "../../Assets/Images/Services/Png/Mall-Activation.png";
+import float_van from "../../Assets/Images/Services/Webp/Float-Van.webp";
+import btl_marketing from "../../Assets/Images/Services/Webp/Btl.webp";
+import float_setup from "../../Assets/Images/Services/Webp/Float-Setup.webp";
+import market_setup from "../../Assets/Images/Services/Webp/Market-Setup.webp";
+import product_launch from "../../Assets/Images/Services/Webp/Product-Launch.webp";
+import corporate_events from "../../Assets/Images/Services/Webp/Corporate.webp";
+import marketing_survey from "../../Assets/Images/Services/Webp/Marketing- Survey.webp";
+import test_drive from "../../Assets/Images/Services/Webp/Test-Drive.webp";
+import residential from "../../Assets/Images/Services/Webp/Residential-Campaign.webp";
+import digital_marketing from "../../Assets/Images/Services/Webp/Digital-Marketing.webp";
+import creative_design from "../../Assets/Images/Services/Webp/Creative-Design.webp";
+import holding from "../../Assets/Images/Services/Webp/Holding-Paint.webp";
+import wall_wrap from "../../Assets/Images/Services/Webp/Wall-Wrap.webp";
+import flex_banner from "../../Assets/Images/Services/Webp/Flex-Banners.webp";
+import mug_t_shirt from "../../Assets/Images/Services/Webp/Mug-Tshirt.webp";
+import leaflets from "../../Assets/Images/Services/Webp/Leaflets-Look-Walkers.webp";
+import rwa_activations from "../../Assets/Images/Services/Webp/Rwa-Activation.webp";
+import mall_activations from "../../Assets/Images/Services/Webp/Mall-Activation.webp";
 
 const OurActivity = () => {
   return (

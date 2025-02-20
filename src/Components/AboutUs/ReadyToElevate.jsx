@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
-import imgone from "../../Assets/Images/About-Us/Png/Hero-1.png";
-import imgtwo from "../../Assets/Images/About-Us/Png/Hero-2.png";
-import imgthree from "../../Assets/Images/About-Us/Png/Hero-3.png";
-import sliderone from "../../Assets/Images/About-Us/Png/hemannt.png";
-import slidertwo from "../../Assets/Images/About-Us/Png/hemannt.png";
+import imgone from "../../Assets/Images/About-Us/Webp/Hero-1.webp";
+import imgtwo from "../../Assets/Images/About-Us/Webp/Hero-2.webp";
+import imgthree from "../../Assets/Images/About-Us/Webp/Hero-3.webp";
+import sliderone from "../../Assets/Images/About-Us/Webp/hemannt.webp";
+import slidertwo from "../../Assets/Images/About-Us/Webp/hemannt.webp";
 import { Star } from "../../Components/Common.jsx/Icons";
 
 const ReadyToElevate = () => {
