@@ -17,10 +17,10 @@ const Header = () => {
         src={dots}
         alt=""
       />
-      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-20 md:pt-[60px] md:pb-28 xl:pt-[90px]">
+      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-16 md:pt-[60px] md:pb-28 xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
-            <h1 className=" font-roboto text-white text-[27px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
+            <h1 className=" font-roboto text-white text-[22px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
               We Ignite Bold Ideas Through Dynamic Brainstorming, Boosting Your
               Brand to New Heights
             </h1>
@@ -32,7 +32,7 @@ const Header = () => {
             </p>
             <div className="mt-3 md:mt-6 xl:mt-[43px]">
               <button
-                className="font-dm text-black text-[20px] font-normal bg-white rounded-full py-3 px-6 flex justify-center items-center gap-2.5"
+                className="font-dm text-black text-base md:text-[20px] font-normal bg-white rounded-full py-2 px-4 md:py-3 md:px-6 flex justify-center items-center gap-2.5"
                 onClick={() =>
                   window.open("https://wa.me/+917988709158", "_blank")
                 }
@@ -82,15 +82,15 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-6/12 mt-16 md:mt-20 lg:mt-0 flex justify-center">
+          <div className="w-full lg:w-6/12 mt-10 md:mt-20 lg:mt-0 flex justify-center">
             <div className="relative">
               <img
-                className="w-[230px] md:w-[450px] lg:w-[420px] xl:w-[550px] md:h-[450px] lg:h-[420px] xl:h-[550px] lg:me-4 xl:me-0"
+                className="w-[180px] md:w-[450px] lg:w-[420px] xl:w-[550px] md:h-[450px] lg:h-[420px] xl:h-[550px] lg:me-4 xl:me-0"
                 src={mainimg}
                 alt=""
               />
               <img
-                className="absolute -top-[63%] md:-top-[62%] lg:-top-[61%] xl:-top-[63%] -right-[63%] md:-right-[62%] lg:-right-[54.5%] xl:-right-[63%] max-w-[520px] md:max-w-[1010px] lg:max-w-[930px] xl:max-w-[1250px] xl:min-h-[850px] "
+                className="absolute -top-[63%] md:-top-[62%] lg:-top-[61%] xl:-top-[63%] -right-[63%] md:-right-[62%] lg:-right-[54.5%] xl:-right-[63%] max-w-[408px] md:max-w-[1010px] lg:max-w-[930px] xl:max-w-[1250px] xl:min-h-[850px] "
                 src={eleipse_img}
                 alt=""
               />

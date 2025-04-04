@@ -44,7 +44,7 @@ const Navbar = () => {
               <a href="/" className="z-50 relative">
                 <div className="flex items-center gap-2">
                   <img className="" src={Logo} alt="" />
-                  <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
+                  <p className=" font-roboto font-semibold text-base md:text-[20px] text-white mb-0">
                     Cynor Media
                   </p>
                 </div>
