@@ -24,6 +24,10 @@ function App() {
           content="Cynor Media, BTL marketing, branding, advertising, business growth"
         />
         <meta name="author" content="Cynor Media" />
+        <meta
+          name="google-site-verification"
+          content="m5nGJS4HTwDSjd1aH7CUOU4RlQPbFWxoo5P5s17tX3A"
+        />
       </Helmet>
       <Router>
         <Navbar />
