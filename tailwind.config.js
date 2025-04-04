@@ -5,10 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         dm: ["DM Sans", "sans-serif"],
-        roboto: ["Roboto Serif", "sans-serif"],
+        roboto: ["Montserrat", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
+        "Bg-Hero": "url('./Assets/Images/Home/Png/Bg-Hero.jpeg')",
         "Hero-bg": "url('./Assets/Images/Home/Webp/Hero-bg.webp')",
         "Service-bg": "url('./Assets/Images/Services/Webp/Hero-bg.webp')",
         "Enough-bg":
