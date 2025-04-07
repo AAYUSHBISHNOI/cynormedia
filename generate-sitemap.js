@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { SitemapStream, streamToPromise } = require("sitemap");
 
-const WEBSITE_URL = "https://yourwebsite.com"; // Replace with your website URL
+const WEBSITE_URL = "https://www.cynormedia.com/"; // Replace with your website URL
 
 const pages = [
   { url: "/", changefreq: "daily", priority: 1.0 },
