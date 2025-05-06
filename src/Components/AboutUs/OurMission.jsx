@@ -46,7 +46,7 @@ const CounterSection = () => {
 
   return (
     <div ref={sectionRef} className="bg-[#0c0c0c] py-10 lg:py-[140px]">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="max-w-[1400px] mx-auto px-4">
         <div className="flex flex-wrap text-center lg:text-start">
           <div className="w-full lg:w-[55%] flex flex-col items-center justify-center lg:justify-start lg:items-start">
             <p className="text-[30px] text-light_green font-roboto font-semibold leading-121 mb-0">

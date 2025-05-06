@@ -67,7 +67,7 @@ const LetsTalk = () => {
 
   return (
     <div className="py-10 lg:pt-14 xl:pt-[162px] lg:pb-[105px]">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="max-w-[1400px] mx-auto px-4">
         <div className="flex flex-wrap justify-between items-center">
           <div className="w-full md:w-[40%] lg:w-[30%] flex flex-col justify-center items-center md:justify-start md:items-start">
             <h1 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
@@ -112,7 +112,7 @@ const LetsTalk = () => {
                         href="tel:+917988709158"
                         className="font-dm font-normal text-base text-light_black"
                       >
-                        +91 7988709158
+                        +91 89013 99629
                       </a>
                     </li>
                   </ul>
@@ -142,11 +142,29 @@ const LetsTalk = () => {
             </div>
 
             <div className="w-[280px] lg:w-[285px] xl:w-[401px] h-[2px] bg-[#dfdfdf] mt-4 md:mt-8"></div>
-            {/* <div className="flex gap-10 mt-4">
-              <FacebookContact />
-              <InstagramContact />
-              <LinkdinContact />
-            </div> */}
+            <div className="flex gap-10 mt-4">
+              <a
+                href="https://www.facebook.com/cynormedia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FacebookContact />
+              </a>
+              <a
+                href="https://www.instagram.com/cynor.media/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <InstagramContact />
+              </a>
+              <a
+                href="https://in.linkedin.com/company/cynormedia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkdinContact />
+              </a>
+            </div>
           </div>
 
           {/* Contact Form */}

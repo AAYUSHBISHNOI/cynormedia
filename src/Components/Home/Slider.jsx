@@ -20,7 +20,7 @@ const Slider = () => {
 
   return (
     <div className="pb-10 md:pb-[103px] pt-[25px]">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="max-w-[1400px] mx-auto px-4">
         <div className="w-full md:h-[511px] h-[450px] bg-[#f4f4f4] rounded-3xl text-center flex flex-col justify-center items-center p-[15px] sm:p-[20px] md:p-[45px] relative">
           <Swiper
             loop={true}
@@ -35,7 +35,7 @@ const Slider = () => {
             <SwiperSlide>
               <div className="flex flex-col items-center justify-center h-full">
                 <img
-                  className="w-[100px] md:w-[120px] lg:w-[150px] h-[100px] md:h-[120px] lg:h-[150px] rounded-full"
+                  className="w-[100px] md:w-[120px] lg:w-[140px] h-[100px] md:h-[120px] lg:h-[140px] rounded-full"
                   src={amit_bishnoi}
                   alt=""
                 />
@@ -57,7 +57,7 @@ const Slider = () => {
             <SwiperSlide>
               <div className="flex flex-col items-center justify-center h-full">
                 <img
-                  className="w-[100px] md:w-[120px] lg:w-[150px] h-[100px] md:h-[120px] lg:h-[150px]"
+                  className="w-[100px] md:w-[120px] lg:w-[140px] h-[100px] md:h-[120px] lg:h-[140px]"
                   src={sliderone}
                   alt=""
                 />

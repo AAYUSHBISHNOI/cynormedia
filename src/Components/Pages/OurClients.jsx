@@ -3,6 +3,7 @@ import HeaderOurClients from "../OurClients/HeaderOurClients";
 import WhatOurClients from "../OurClients/WhatOurClients";
 import EnoughTalks from "../AboutUs/EnoughTalks";
 import { Helmet } from "react-helmet";
+import Accordion from "../OurClients/Accordion";
 
 const OurClients = () => {
   return (
@@ -18,6 +19,7 @@ const OurClients = () => {
       <div>
         <HeaderOurClients />
         <WhatOurClients />
+        <Accordion />
         <EnoughTalks />
       </div>
     </>

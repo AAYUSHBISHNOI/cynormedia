@@ -17,7 +17,9 @@ module.exports = {
       },
       boxShadow: {
         lightblack: "0 13px 15px 0 rgba(191, 191, 191, 1)",
-        darkblack: "0 5px 5px 0rgba(0, 0, 0, 1)",
+        darkblack: "0 5px 5px 0 rgba(0, 0, 0, 1)",
+        lightskyblue: "0 2px 21px 0 rgb(100, 204, 197)",
+        lightblue: "0 15px 60px 0 rgb(100, 204, 197)",
       },
       lineHeight: {
         110: "110%",

@@ -6,6 +6,8 @@ import { Navigation } from "swiper/modules";
 import imgone from "../../Assets/Images/About-Us/Webp/Hero-1.webp";
 import imgtwo from "../../Assets/Images/About-Us/Webp/Hero-2.webp";
 import imgthree from "../../Assets/Images/About-Us/Webp/Hero-3.webp";
+import owner from "../../Assets/Images/About-Us/Webp/Founder.webp";
+import star from "../../Assets/Images/About-Us/Star.png";
 import sliderone from "../../Assets/Images/About-Us/Webp/hemannt.webp";
 import slidertwo from "../../Assets/Images/About-Us/Webp/hemannt.webp";
 import { Star } from "../../Components/Common.jsx/Icons";
@@ -34,10 +36,57 @@ const ReadyToElevate = () => {
 
   const rating = 3;
   return (
-    <div className="my-10 lg:mt-[63px] lg:mb-24 px-4">
-      <div className="max-w-[1440px] h-[52vh] xsm:h-[70vh] sm:h-[60vh] md:h-[63vh] lg:h-[50vh] xl:h-[68vh] xxl:h-[78vh] 2xl:h-[75vh] mx-auto py-5 px-3 lg:ps-20 lg:pt-7 lg:pb-28 bg-[#0c0c0c] rounded-3xl">
+    <div className="bg-black">
+      <div className="max-w-[1400px] mx-auto px-4 ">
+        {/* <div className="bg-[#64ccc5] h-full w-[250px] absolute right-0 top-0"></div> */}
+
+        <div className="flex flex-wrap py-10 lg:py-14 xl:py-[158px] text-center items-center md:text-start">
+          <div className="w-full md:w-3/5 xl:w-[70%]">
+            <h1 className="font-dm font-bold text-4xl xsm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-121 text-white">
+              Welcome to Cynor Media
+            </h1>
+            <p className="md:w-[448px] lg:w-[587px] xl:w-[927px] text-white font-dm font-normal leading-130 text-base mb-0 mt-4 xl:mt-10">
+              At Cynor Media, we are more than just a BTL marketing company — we
+              are passionate storytellers, strategic thinkers, and brand
+              builders with a clear vision to make every brand stand out. Our
+              work goes beyond traditional marketing as we craft stories that
+              inspire, influence, and connect. From product launches and
+              activations to roadshows and promotional campaigns, we create
+              meaningful brand experiences that engage audiences and deliver
+              impact.
+            </p>
+            <p className="md:w-[448px] lg:w-[587px] xl:w-[927px] text-white font-dm font-normal leading-130 text-base mb-0 mt-3 xl:mt-8">
+              Founded in 2017 under the leadership of Mr. Amit Bishnoi, Cynor
+              Media has steadily evolved into a trusted name in BTL marketing.
+              Our team of experienced professionals and creative experts brings
+              deep industry knowledge and on-ground execution skills.
+            </p>
+            <h5 className="text-white font-dm leading-130 font-bold text-3xl lg:text-5xl mt-4 lg:mt-10 mb-0">
+              Mr. Amit Bishnoi
+            </h5>
+            <p className="text-white font-dm font-normal leading-130 text-lg mb-0">
+              Chief Executive Officer
+            </p>
+          </div>
+          <div className="w-full md:w-2/5 xl:w-[30%] mt-10 md:mt-0 flex justify-center relative">
+            <img
+              className="z-50 relative w-[260px] lg:w-[362px] h-[350px] lg:h-[512px] rounded-2xl"
+              src={owner}
+              alt=""
+            />
+            <div className="bg-[#64ccc5] h-[330px] w-[260px] lg:h-[504px] lg:w-[370px] rounded-3xl blur-[16px] absolute top-6 right-1 xsm:right-9 sm:right-16 md:right-0"></div>
+            <img
+              className="w-[290px] sm:w-[350px] lg:w-[780px] h-[440px] lg:h-[540px] absolute -top-10 right-0 sm:right-10 md:right-4 lg:right-9 lg:-top-24"
+              src={star}
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="max-w-[1440px] h-[52vh] xsm:h-[70vh] sm:h-[60vh] md:h-[63vh] lg:h-[50vh] xl:h-[68vh] xxl:h-[78vh] 2xl:h-[75vh] mx-auto py-5 px-3 lg:ps-20 lg:pt-7 lg:pb-28 bg-[#0c0c0c] rounded-3xl">
         <div className="flex flex-wrap justify-center items-center lg:justify-between">
-          {/* About Us Content */}
+
           <div className="w-full lg:w-[40%] text-center lg:text-start">
             <h2 className="font-dm font-normal text-sm md:text-lg leading-121 text-white">
               Pleasure and so read the was hope.
@@ -51,199 +100,17 @@ const ReadyToElevate = () => {
               to life. Your journey to success starts here!
             </p>
 
-            {/* <Swiper
-              loop={true}
-              navigation={{
-                nextEl: ".custom-next",
-                prevEl: ".custom-prev",
-              }}
-              autoplay={{
-                delay: 20,
-                disableOnInteraction: false,
-              }}
-              modules={[Navigation]}
-              className="mySwiper"
-              style={{ width: "100%", height: "100%" }}
-            >
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="flex items-center gap-3">
-                  <img className="w-[70px] h-[70px]" src={sliderone} alt="" />
-                  <div>
-                    <p className="font-roboto font-semibold text-xl leading-121 text-white">
-                      Rated 5/5 stars
-                    </p>
-                    <Star
-                      rating={5}
-                      colorMap={{ 3: "#FF69B4", 4.5: "#1E90FF", 5: "#FFD700" }}
-                    />
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper> */}
+          
           </div>
 
-          {/* Slider */}
+  
           <div className="w-full lg:w-[60%] mt-9">
             <div
               id="slider"
               className="relative w-full"
               style={{ height: "35vw" }}
             >
-              {/* Radio buttons */}
+            
               {images.map((_, index) => (
                 <input
                   key={index}
@@ -255,7 +122,7 @@ const ReadyToElevate = () => {
                   onChange={() => handleSlideChange(index)}
                 />
               ))}
-              {/* Slider labels */}
+          
               {images.map((image, index) => (
                 <label
                   key={index}
@@ -280,7 +147,7 @@ const ReadyToElevate = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

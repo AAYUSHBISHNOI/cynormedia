@@ -8,6 +8,8 @@ import ChooseUs from "../AboutUs/ChooseUs";
 import WhyChooseUs from "../AboutUs/WhyChooseUs";
 import OurMission from "../AboutUs/OurMission";
 import { Helmet } from "react-helmet";
+import OurVision from "../AboutUs/OurVision";
+import Customer from "../AboutUs/Customer";
 
 const AboutUs = () => {
   return (
@@ -40,7 +42,9 @@ const AboutUs = () => {
 
       <div>
         <ReadyToElevate />
+        <OurVision />
         <Experince />
+        <Customer />
         <WhyChooseUs />
         {/* <WhatWe /> */}
         {/* <ChooseUs /> */}

@@ -5,6 +5,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "cra-template": "1.2.0",
+    "framer-motion": "^12.7.2",
     "fs": "^0.0.1-security",
     "gsap": "^3.12.5",
     "path": "^0.12.7",

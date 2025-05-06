@@ -17,7 +17,7 @@ const Header = () => {
         src={dots}
         alt=""
       />
-      <div className="max-w-[1440px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-16 md:pt-[60px] md:pb-28 xl:pt-[90px]">
+      <div className="max-w-[1400px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-16 md:pt-[60px] md:pb-28 xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
             <h1 className=" font-roboto text-white text-[22px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">

@@ -20,11 +20,11 @@ const OurServise = () => {
   return (
     <div className=" relative">
       <div className=" absolute -bottom-[0.7%] md:-bottom-[4%] lg:-bottom-[6%] left-0 -z-10">
-        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[35px] sm:text-[40px] md:text-[104px] lg:text-[140px] xl:text-[198px]">
+        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[35px] sm:text-[40px] md:text-[98px] lg:text-[128px] xl:text-[180px]">
           CYNOR MEDIA
         </p>
       </div>
-      <div className=" max-w-[1440px] mx-auto py-10 md:pt-[50px] md:pb-[80px] px-4">
+      <div className=" max-w-[1400px] mx-auto py-10 md:pt-[50px] md:pb-[80px] px-4">
         {/* <div className="circle_gradient_border w-[550px] h-[550px] rounded-full flex items-center justify-center">
           <div className="inner_circle w-full h-full rounded-full"></div>
         </div> */}

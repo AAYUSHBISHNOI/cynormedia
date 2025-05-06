@@ -4,13 +4,15 @@ import tata from "../../Assets/Images/Home/Svg/Tata-Logo.svg";
 import hero from "../../Assets/Images/Home/Svg/Hero-logo.svg";
 import jhondeere from "../../Assets/Images/Home/Svg/Jhon-Deere-Logo.svg";
 import maruti from "../../Assets/Images/Home/Svg/Suzuki-Logo.svg";
+import epson from "../../Assets/Images/OurClients/Webp/Epson.webp";
+import kubota from "../../Assets/Images/OurClients/Webp/Kubota.webp";
 import { Facebook, Instagram, Linkdin } from "../Common.jsx/Icons";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="bg-[#0c0c0c] py-10 md:pt-14 lg:pt-[100px] md:pb-[60px]">
-      <div className="max-w-[1440px] mx-auto px-4">
+      <div className="max-w-[1400px] mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full md:w-[55%] lg:w-[40%]">
             <div className="flex items-center gap-2">
@@ -27,6 +29,29 @@ const Footer = () => {
               exhibitions, with over five years of experience delivering
               memorable results.
             </p>
+            <div className="flex gap-[29px] mt-4">
+              <a
+                href="https://www.instagram.com/cynor.media/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram />
+              </a>
+              <a
+                href="https://www.facebook.com/cynormedia/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Facebook />
+              </a>
+              <a
+                href="https://in.linkedin.com/company/cynormedia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkdin />
+              </a>
+            </div>
           </div>
           <div className="w-full md:w-[20%] lg:w-[15%] xl:w-[15%] mt-5 md:mt-0">
             {/* <ul className="">
@@ -88,7 +113,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-[25%] lg:w-[20%] xl:w-[20%] mt-5 md:mt-0">
+          <div className="w-full md:w-[25%] lg:w-[20%] xl:w-[20%] mt-5 md:mt-0 flex lg:justify-center">
             <ul>
               <li className="font-roboto font-semibold text-xl leading-121 text-white">
                 Services
@@ -135,57 +160,46 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/2 lg:w-[25%] xl:w-[25%] mt-5 lg:mt-0">
-            <ul>
-              <li className="font-roboto font-semibold text-xl leading-121 text-white">
+          <div className="w-full md:w-1/2 lg:w-[25%] xl:w-[25%] mt-5 lg:mt-0 flex lg:justify-end">
+            <div>
+              <p className="font-roboto font-semibold text-xl leading-121 text-white">
                 Trusted By
-              </li>
-              <li className="flex  gap-4 mt-4">
-                <li className="w-[80px]">
-                  <a href="">
-                    <img src={tata} alt="" />
-                  </a>
-                </li>
-                <li className="w-[150px]">
-                  <a href="">
-                    <img src={hero} alt="" />
-                  </a>
-                </li>
-                {/* <li className="w-[150px] flex justify-center items-center">
-                  <a href="">
-                    <img src={jhondeere} alt="" />
-                  </a>
-                </li> */}
-              </li>
-              <li className="flex gap-4 mt-4">
-                <li className="w-[80px]">
-                  <a href="">
-                    <img src={maruti} alt="" />
-                  </a>
-                </li>
-                <li className="w-[150px] flex justify-center items-center">
-                  <a href="">
-                    <img src={jhondeere} alt="" />
-                  </a>
-                </li>
-                {/* <li className="w-[150px] flex justify-center items-center text-center">
-                  <a
-                    href=""
-                    className="flex justify-center items-center text-center"
-                  >
-                    <img src={tata} alt="" />
-                  </a>
-                </li> */}
-                {/* <li className="w-[150px] flex justify-center items-center">
-                  <a
-                    href=""
-                    className="flex justify-center items-center text-center"
-                  >
-                    <img src={hero} alt="" />
-                  </a>
-                </li> */}
-              </li>
-            </ul>
+              </p>
+              <div className="flex gap-6 mt-4 justify-start items-center">
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[90px] h-[80px]"
+                  src={tata}
+                  alt=""
+                />
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[100px] h-[80px]"
+                  src={jhondeere}
+                  alt=""
+                />
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[100px] h-[80px]"
+                  src={maruti}
+                  alt=""
+                />
+              </div>
+              <div className="flex items-center gap-6 mt-4">
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
+                  src={epson}
+                  alt=""
+                />
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
+                  src={hero}
+                  alt=""
+                />
+                <img
+                  className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
+                  src={kubota}
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-full h-[2px] bg-[#696969] mt-10 md:mt-14 lg:mt-[101px] mb-[29px]"></div>
@@ -219,11 +233,6 @@ const Footer = () => {
               Opposite Nabha Sahib Gurudwara, VIP road Zirakpur, Punjab, 140603
             </p>
           </div>
-          {/* <div className="flex gap-[29px] mt-4 lg:mt-0">
-            <Instagram />
-            <Facebook />
-            <Linkdin />
-          </div> */}
         </div>
       </div>
     </div>

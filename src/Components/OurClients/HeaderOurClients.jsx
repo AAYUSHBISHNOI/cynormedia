@@ -11,7 +11,7 @@ import imageseight from "../../Assets/Images/OurClients/Webp/Epson.webp";
 const HeaderOurClients = () => {
   return (
     <div className="pt-10 md:py-24">
-      <div className=" max-w-[1440px] mx-auto px-4">
+      <div className=" max-w-[1400px] mx-auto px-4">
         <div className="bg-[#000] w-full h-full px-3 lg:px-48 py-10 lg:pb-40 lg:pt-20 rounded-2xl flex flex-col justify-center items-center">
           <h1 className="font-roboto font-bold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[77px] leading-121 text-white text-center">
             Our Clients
@@ -19,14 +19,14 @@ const HeaderOurClients = () => {
           <div className="flex flex-wrap justify-center items-center md:justify-between xl:justify-between mt-10 xl:mt-32 gap-10 sm:gap-[20px] md:gap-[30px] lg:gap-[40px] xl:gap-[100px]">
             <div>
               <img
-                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
+                className="w-full h-full max-w-[145px] md:max-w-[128px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
                 src={imageone}
                 alt=""
               />
             </div>
             <div>
               <img
-                className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[125px] min-h-[90px] xl:min-h-[70px]"
+                className="w-full h-full max-w-[114px] md:max-w-[88px] lg:max-w-[120px] xl:max-w-[125px] min-h-[90px] xl:min-h-[70px]"
                 src={imagetwo}
                 alt=""
               />

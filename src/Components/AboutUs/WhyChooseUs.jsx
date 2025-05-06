@@ -5,11 +5,11 @@ const WhyChooseUs = () => {
   return (
     <div className="py-10 xl:pt-20 lg:pb-32 relative">
       <div className=" absolute -bottom-[1.2%] md:-bottom-[6%] lg:-bottom-[8.4%] xl:-bottom-[12%] left-0 -z-10">
-        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[35px] sm:text-[40px] md:text-[104px] lg:text-[140px] xl:text-[198px]">
+        <p className="font-roboto font-semibold text-[#e9e9e9] leading-150 text-[35px] sm:text-[40px] md:text-[98px] lg:text-[128px] xl:text-[180px]">
           CYNOR MEDIA
         </p>
       </div>
-      <div className=" max-w-[1440px] mx-auto px-4">
+      <div className=" max-w-[1400px] mx-auto px-4">
         <h2 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121 text-center">
           Why Choose Us?
         </h2>

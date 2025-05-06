@@ -1,10 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Logo from "../../Assets/Images/Home/Svg/Footer-Logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  const [activeLink, setActiveLink] = useState(0);
+  const location = useLocation();
+
+  const navItems = [
+    { name: "Home", path: "/" },
+    { name: "Service", path: "/service" },
+    { name: "About Us", path: "/about-us" },
+    { name: "Our Clients", path: "/our-clients" },
+    { name: "Contact Us", path: "/contact-us" },
+    // { name: "Blog", path: "/blog" },
+  ];
 
   useEffect(() => {
     if (show) {
@@ -26,62 +35,56 @@ const Navbar = () => {
     };
 
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  const handleLinkClick = (index) => {
-    setActiveLink(index);
-    setShow(false);
-  };
 
   return (
     <div className="bg-[#000000]">
       <div className="overflow-hidden">
-        <div className="mx-auto max-w-[1440px] px-[20px] mt-2">
+        <div className="mx-auto max-w-[1400px] px-[20px] mt-2">
           <div className="flex items-center justify-between h-[50px] md:h-[100px] z-50 relative">
+            {/* Logo */}
             <div>
               <a href="/" className="z-50 relative">
                 <div className="flex items-center gap-2">
-                  <img className="" src={Logo} alt="" />
-                  <p className=" font-roboto font-semibold text-base md:text-[20px] text-white mb-0">
+                  <img src={Logo} alt="Cynor Logo" />
+                  <p className="font-roboto font-semibold text-base md:text-[20px] text-white mb-0">
                     Cynor Media
                   </p>
                 </div>
               </a>
             </div>
+
+            {/* Nav Links */}
             <ul
               className={`${
                 show ? "left-0" : "-left-full"
               } duration-500 bg-[#000000] w-full h-full top-0 fixed gap-10 xl:gap-12 flex flex-col justify-center items-center xl:bg-transparent xl:flex-row xl:static xl:w-auto xl:h-full z-40`}
             >
-              {[
-                { name: "Home", path: "/" },
-                { name: "Service", path: "/service" },
-                { name: "About Us", path: "/about-us" },
-                { name: "Our Clients", path: "/our-clients" },
-                { name: "Contact Us", path: "/contact-us" },
-              ].map((item, index) => (
+              {navItems.map((item, index) => (
                 <li key={index}>
                   <Link
                     to={item.path}
-                    onClick={() => handleLinkClick(index)}
-                    className={`relative transition-all ease-in-out duration-500 font-dm font-medium text-base leading-[126%] hover:after:w-[57px] ${
-                      activeLink === index
-                        ? "!text-[#fff] xl:after:w-[57px] xl:after:border-b-[#ffa852] xl:after:border-l-[30px] xl:after:border-l-transparent xl:after:border-r-[30px] xl:after:border-r-transparent xl:after:border-b-[30px] xl:after:border-b-black xl:after:rotate-180"
-                        : "text-white"
-                    } xl:after:absolute xl:after:top-[-50px] xl:after:left-[-5px] xl:after:h-[30px]`}
+                    onClick={() => setShow(false)}
+                    className={`transition-all ease-in-out duration-300 font-dm font-medium text-base leading-[126%] 
+                      ${
+                        location.pathname === item.path
+                          ? "text-[#64cccc]"
+                          : "text-white hover:text-[#64cccc]"
+                      }`}
                   >
                     {item.name}
                   </Link>
                 </li>
               ))}
             </ul>
+
+            {/* CTA Button */}
             <div className="group">
               <button
                 className="font-dm hidden md:block font-medium text-lg leading-[126%] 
-    text-black bg-[#fff] py-[12px] px-[15px] rounded-full duration-700 ease-in-out
-    group-hover:text-white group-hover:bg-[#44e6db]"
+                  text-black bg-[#fff] py-[12px] px-[15px] rounded-full duration-700 ease-in-out
+                  group-hover:text-white group-hover:bg-[#44e6db]"
                 onClick={() =>
                   window.open("https://wa.me/+917988709158", "_blank")
                 }
@@ -90,11 +93,10 @@ const Navbar = () => {
               </button>
             </div>
 
+            {/* Toggle Button */}
             <button
               className="xl:hidden z-50 transition-all duration-300 ease-in-out sm:mr-[25px]"
-              onClick={() => {
-                setShow(!show);
-              }}
+              onClick={() => setShow(!show)}
             >
               {show ? (
                 <div className="z-20 relative">

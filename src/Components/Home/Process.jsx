@@ -4,7 +4,7 @@ import { Concept, Execution, Feedback, Message } from "../Common.jsx/Icons";
 const Process = () => {
   return (
     <div className="pt-10 md:pt-14 lg:pt-[86px] lg:pb-[115px]">
-      <div className=" max-w-[1440px] mx-auto px-4">
+      <div className=" max-w-[1400px] mx-auto px-4">
         <div className=" text-center flex flex-col justify-center items-center">
           <p className=" text-light_green font-semibold leading-130 font-roboto text-2xl md:text-3xl">
             Process

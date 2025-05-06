@@ -16,13 +16,13 @@ const Contact = () => {
           name="keywords"
           content="contact Cynor Media, marketing inquiries, collaboration, business support"
         />
-        <link rel="canonical" href="https://www.cynormedia.com/contact" />
+        <link rel="canonical" href="https://www.cynormedia.com/contact-us" />
         <meta property="og:title" content="Contact Us - Cynor Media" />
         <meta
           property="og:description"
           content="Reach out to Cynor Media for marketing and branding solutions."
         />
-        <meta property="og:url" content="https://www.cynormedia.com/contact" />
+        <meta property="og:url" content="https://www.cynormedia.com/contact-us" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Us - Cynor Media" />

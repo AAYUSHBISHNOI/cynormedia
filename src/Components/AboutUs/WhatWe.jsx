@@ -3,7 +3,7 @@ import React from "react";
 const WhatWe = () => {
   return (
     <div className="py-10 pd:pt-[60px] md:pb-24">
-      <div className=" max-w-[1440px] mx-auto px-4">
+      <div className=" max-w-[1400px] mx-auto px-4">
         <div className="text-center flex flex-col justify-center items-center">
           <h2 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121">
             What We Do
