@@ -15,17 +15,22 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Cynor Media</title>
+        <title>
+          About Us - Leading BTL Marketing Company in India | Cynor Media
+        </title>
         <meta
           name="description"
-          content="Learn more about Cynor Media, our mission, experience, and why you should choose us for your BTL marketing needs."
+          content="Learn about Cynor Media, a leading agency in BTL marketing, delivering innovative and result-driven brand activation solutions across India."
         />
         <meta
           name="keywords"
           content="Cynor Media, about us, branding, BTL marketing, digital marketing, business growth"
         />
         <link rel="canonical" href="https://www.cynormedia.com/about-us" />
-        <meta property="og:title" content="About Us - Cynor Media" />
+        <meta
+          property="og:title"
+          content="About Us - Leading BTL Marketing Company in India | Cynor Media"
+        />
         <meta
           property="og:description"
           content="Discover Cynor Media's mission, experience, and expertise in BTL marketing."
