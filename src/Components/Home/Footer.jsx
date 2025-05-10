@@ -212,7 +212,7 @@ const Footer = () => {
               Cynor Media
             </p>
           </div>
-          <ul className="mt-4 xsm:mt-0">
+          <ul>
             <li className="font-roboto font-semibold text-xl leading-121 text-white mb-0">
               Contact Us
             </li>

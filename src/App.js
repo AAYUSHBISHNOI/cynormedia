@@ -15,18 +15,6 @@ import Blog from "./Components/Pages/Blog";
 function App() {
   return (
     <>
-      <Helmet>
-        <title>Cynor Media - Your Digital Growth Partner</title>
-        <meta
-          name="description"
-          content="Cynor Media offers top-notch BTL marketing, branding, and advertising solutions to help businesses grow."
-        />
-        <meta
-          name="keywords"
-          content="Cynor Media, BTL marketing, branding, advertising, business growth"
-        />
-        <meta name="author" content="Cynor Media" />
-      </Helmet>
       <Router>
         <Navbar />
         <Routes>

@@ -32,8 +32,9 @@ const OurServise = () => {
           <p className=" text-light_green font-semibold leading-130 font-roboto text-2xl md:text-3xl">
             Our Services
           </p>
-          <h2 className=" text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] font-roboto font-semibold leading-121 text-light_black max-w-[690px] md:max-w-[797px] text-center">
-            High-impact services for your business
+          <h2 className="text-base sm:text-[26px] md:text-[32px] lg:text-[40px] font-roboto font-semibold leading-121 text-light_black max-w-[690px] md:max-w-[797px] text-center">
+            Let your brand be seen, heard, and felt through our innovative
+            services.
           </h2>
         </div>
         <div className="flex mt-4 xl:mt-[80px] flex-wrap justify-center">
@@ -46,12 +47,13 @@ const OurServise = () => {
                 alt=""
               /> */}
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
-                Float Van Campaign
+                Float van services
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[328px]">
-                Discover the marketing on-the-go. Our demo van is an interactive
-                showroom on wheels, driving engagement, loyalty, and
-                conversions.
+                Let your brand take center stage with our Float Van services.
+                From city streets to marketplaces, we create engaging, immersive
+                experiences that drive attention, spark conversations, and build
+                lasting brand recognition on the move.
               </p>
             </div>
           </div>
@@ -62,9 +64,9 @@ const OurServise = () => {
                 Market Setup
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[308px]">
-                Elevate your brand's presence with our market setup services. We
-                provide tailored solutions for events, exhibitions, and
-                activations, ensuring a lasting impact on your target audience
+                Transform ordinary spaces into brand experiences with our custom
+                Market Setups—featuring kiosks, live demos, and interactive
+                engagements to boost visibility and connect with your audience.
               </p>
             </div>
           </div>
@@ -80,9 +82,10 @@ const OurServise = () => {
                 Digital Marketing
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[328px]">
-                Digital marketing uses digital channels to promote products,
-                services, or brands through SEO, social media, email, and
-                content marketing.
+                From SEO to social media, our digital experts use data-driven
+                strategies to grow followers, boost visibility, and generate
+                leads—delivering the right content to the right audience, on the
+                right platforms.
               </p>
             </div>
           </div>
@@ -98,10 +101,10 @@ const OurServise = () => {
                 Web Development
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[378px]">
-                We specialize in crafting visually captivating and user-friendly
-                websites tailored to your brand identity. Our designs focus on
-                delivering seamless user experiences that leave a lasting
-                impression.
+                Stand out online with tailor-made websites built from scratch
+                and as per your vision. Our web development team blends design,
+                technology, content, and strategy to create powerful experiences
+                that attract, engage, and convert visitors.
               </p>
             </div>
           </div>
@@ -112,9 +115,9 @@ const OurServise = () => {
                 BTL Marketing
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[408px]">
-                BTL marketing targets specific audiences through events,
-                sponsorships, and trade shows to create personal connections and
-                drive sales.
+                Our BTL marketing services create tangible engagement through
+                market activations, street campaigns, and live demos, bringing
+                your brand to life with creative, face-to-face strategies.
               </p>
             </div>
           </div>
@@ -130,9 +133,9 @@ const OurServise = () => {
                 Product Launch
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[310px]">
-                Maximize your launch momentum! Our tailored services include
-                strategy development, event planning, content creation, and
-                more, all designed to generate excitement and drive results.
+                Our BTL marketing and product launch services showcase your
+                brand with immersive setups, strategic promotions, and memorable
+                audience experiences.
               </p>
             </div>
           </div>

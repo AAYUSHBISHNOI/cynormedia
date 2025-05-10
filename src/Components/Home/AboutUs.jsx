@@ -111,16 +111,15 @@ const AboutUs = () => {
             About us
           </h2>
           <p className="text-lg md:text-3xl lg:text-2xl xl:text-4xl font-roboto font-semibold text-white leading-121 mt-3 xl:mt-[25px] mb-0 max-w-[570px] md:max-w-[742px]">
-            Cynor Media, founded in 2015, is a leading event management company
-            in Chandigarh, delivering successful events and innovative
-            promotions with a passionate, results-driven team.
+            Since 2017, Cynor Media has led BTL marketing in Chandigarh with 17+
+            impactful brand activation services, including float vans and
+            product launches.
           </p>
           <p className="text-sm md:text-base lg:text-sm xl:text-base font-dm font-normal text-white leading-121 mt-3 xl:mt-[25px] mb-0 max-w-[575px] md:max-w-[732px]">
-            We have 360-degree solutions for brand promotions, marketing
-            including Float van events, Product launch Event, exhibitions, stall
-            designs, portable displays, etc. Get one-stop solutions for
-            corporate events, customer meets, indoor and outdoor advertising,
-            and printing solutions only at Cynor Media Pvt. Ltd.
+            Whether you're looking to engage customers through corporate events,
+            customer meets, or amplify visibility with indoor and outdoor
+            advertising and customized printing solutions, Cynor Media is your
+            one-stop partner in driving real connections and measurable results.
           </p>
 
           <div className="flex gap-10">

@@ -1,6 +1,6 @@
 import React from "react";
 import vision from "../../Assets/Images/About-Us/Webp/Vision.webp";
-import { Brands, Vision } from "../Common.jsx/Icons";
+import { Brands, Expertised, Smart, Vision } from "../Common.jsx/Icons";
 
 const OurVision = () => {
   return (
@@ -12,37 +12,40 @@ const OurVision = () => {
               Our Vision
             </h2>
             <p className="font-dm font-normal text-base xl:text-lg text-light_black leading-121 max-w-[785px] lg:w-[576px] xl:w-[785px] md:mt-3">
-              Our vision is to become India’s most trusted and innovative BTL
-              marketing company, dedicated to empowering brands by creating
-              meaningful, engaging, and result-driven on-ground experiences. We
-              aim to bridge the gap between brands and their target audiences by
-              delivering immersive, interactive, and memorable campaigns that
-              spark genuine connections, inspire meaningful action, and deliver
-              measurable outcomes for long-term brand growth.
+              To be the most innovative and result-driven BTL marketing company
+              in India, transforming how brands connect with their audience
+              through BTL marketing and other{" "}
+              <a href="/service" className=" text-[#64ccc5] font-extrabold">
+                services
+              </a>{" "}
+              in India and beyond.
             </p>
             <div className="mt-8 lg:mt-14 flex flex-wrap justify-center md:justify-between lg:gap-10 xl:gap-36">
               <div className="text-center items-center flex flex-col">
                 <div className="w-[270px] lg:w-[250px] xl:w-[298px] h-[228px] shadow-lightskyblue hover:shadow-lightblue rounded-xl duration-500 flex justify-center items-center">
-                  <Vision />
+                  <Expertised />
                 </div>
-                <h4 className="font-dm text-2xl font-bold text-black leading-121 z-10 mt-4 lg:mt-9">
-                  Trust and Innovation
+                <h4 className="font-dm text-[22px] font-bold text-black leading-121 z-10 mt-4 lg:mt-9">
+                  Innovative Marketing
                 </h4>
-                <p className="font-dm font-normal text-lg text-light_black leading-121 z-10 w-[295px] lg:max-w-[262px] mb-0 mt-2">
-                  India’s most trusted BTL agency delivering impactful,
-                  result-driven on-ground brand experiences.
+                <p className="font-dm font-normal text-lg text-light_black leading-121 z-10 max-w-[295px] lg:max-w-[280px] xl:max-w-[352px] mb-0 mt-2">
+                  Revolutionizing on-ground brand experiences by delivering
+                  fresh, creative, and impactful marketing solutions that spark
+                  meaningful connections with audiences and drive measurable,
+                  lasting impact.
                 </p>
               </div>
               <div className="text-center items-center flex flex-col mt-8 md:mt-0">
                 <div className="w-[270px] lg:w-[250px] xl:w-[298px] h-[228px] shadow-lightskyblue hover:shadow-lightblue rounded-xl duration-500 flex justify-center items-center">
-                  <Brands />
+                  <Smart />
                 </div>
-                <h4 className="font-dm text-2xl font-bold text-black leading-121 z-10 mt-4 lg:mt-9">
-                  Brands with Audiences
+                <h4 className="font-dm text-[22px] font-bold text-black leading-121 z-10 mt-4 lg:mt-9">
+                  Smart Brand Engagement
                 </h4>
-                <p className="font-dm font-normal text-lg text-light_black leading-121 z-10 w-[295px] lg:max-w-[262px] mb-0 mt-2">
-                  We connect brands with audiences through engaging campaigns
-                  that drive lasting growth.
+                <p className="font-dm font-normal text-lg text-light_black leading-121 z-10 max-w-[295px] lg:max-w-[280px] xl:max-w-[352px] mb-0 mt-2">
+                  We focus on creating strategic, localized, and human-centered
+                  marketing solutions that make brands stand out where it
+                  matters most, in the hearts and minds of people.
                 </p>
               </div>
             </div>

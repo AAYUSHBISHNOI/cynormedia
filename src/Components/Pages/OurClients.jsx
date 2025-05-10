@@ -10,7 +10,7 @@ const OurClients = () => {
     <>
       <Helmet>
         <title>
-          Our Clients | Trusted Partners in BTL Marketing – Cynor Media
+         Our Clients | Trusted Partners in BTL Marketing – Cynor Media
         </title>
         <meta
           name="description"
@@ -35,7 +35,10 @@ const OurClients = () => {
         />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Our Clients - Cynor Media" />
+        <meta
+          name="twitter:title"
+          content="Our Clients | Trusted Partners in BTL Marketing – Cynor Media"
+        />
         <meta
           name="twitter:description"
           content="Check out our successful client collaborations in BTL marketing across India."

@@ -943,6 +943,89 @@ export const Brands = () => {
     </svg>
   );
 };
+export const Expertised = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-[88px] h-[88px]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="black"
+      strokeWidth={1}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M12 2a7 7 0 00-7 7c0 2.25 1.03 4.25 2.64 5.58.22.19.36.46.36.75v1.17a1 1 0 001 1h6a1 1 0 001-1v-1.17c0-.29.14-.56.36-.75A6.98 6.98 0 0019 9a7 7 0 00-7-7z"
+      />
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 21h6" />
+    </svg>
+  );
+};
+export const Smart = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-[88px] h-[88px]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="black"
+      strokeWidth={1}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M7.5 4.5h9a3 3 0 013 3v6a3 3 0 01-3 3H8.25L4.5 19.5v-12a3 3 0 013-3z"
+      />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M14.25 9.75h.008v.008h-.008zM10.5 9.75h.008v.008h-.008zM6.75 9.75h.008v.008h-.008z"
+      />
+    </svg>
+  );
+};
+export const Seamless = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-[88px] h-[88px]"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="black"
+      strokeWidth={1}
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M13.5 10.5l3-3a3 3 0 114.24 4.24l-3 3M10.5 13.5l-3 3a3 3 0 01-4.24-4.24l3-3"
+      />
+    </svg>
+  );
+};
+export const Creativitys = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="88"
+      height="88"
+      viewBox="0 0 64 64"
+      fill="none"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M34.07,50.93S53.86,44.38,45.68,26.6c0,0-4.8-11.46-19.31-13.27S8.3,20.8,8.3,20.8,1.81,33.68,13.1,35c1.62.19,5-.56,6.4,1.33s.29,4.2,0,8.8C19.34,47.69,21.27,53.87,34.07,50.93Z" />
+      <circle cx="17.2" cy="24.01" r="3.59" />
+      <circle cx="38.02" cy="28.02" r="2.43" />
+      <circle cx="38.02" cy="39.04" r="2.43" />
+      <circle cx="28.14" cy="44.38" r="2.43" />
+      <path d="M54,12.62c-.69,3.31-2.07,10.9-2.18,27a.41.41,0,0,0,.41.41h4.91a.41.41,0,0,0,.41-.42c-.1-2.82-.74-18.12-2.75-27A.41.41,0,0,0,54,12.62Z" />
+      <path d="M57.48,43.8c0,1.53-1.92,7.37-2.78,7.37s-2.78-5.84-2.78-7.37a2.78,2.78,0,1,1,5.56,0Z" />
+    </svg>
+  );
+};
 export const RemoveIcon = () => {
   return (
     <svg

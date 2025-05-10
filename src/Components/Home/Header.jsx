@@ -20,16 +20,19 @@ const Header = () => {
       <div className="max-w-[1400px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-16 md:pt-[60px] md:pb-28 xl:pt-[90px]">
         <div className="lg:flex items-center">
           <div className="w-full lg:w-6/12 text-center lg:text-start items-center lg:items-start justify-center lg:justify-start flex flex-col">
-            <h1 className=" font-roboto text-white text-[22px] md:text-[42px] lg:text-[32px] xl:text-[56px] leading-110 lg:max-w-[600px] font-semibold mb-0">
-              We Ignite Bold Ideas Through Dynamic Brainstorming, Boosting Your
-              Brand to New Heights
+            <h1 className=" font-roboto text-white text-[16px] md:text-[42px] lg:text-[32px] xl:text-[38px] 2xl:text-[39px] leading-110 lg:max-w-[600px] font-semibold mb-0">
+              Welcome to Cynor Media India’s Trusted BTL Marketing Partner for
+              Innovative On-Ground Brand Solutions.
             </h1>
-            <p className="font-dm font-normal text-[16px] md:text-lg text-[#dedede] leading-121 mt-3 md:mt-4 xl:mt-6 md:max-w-[600px] lg:max-w-[432px] xl:max-w-[517px]">
-              Reveal your brand's full potential with us. Our collaborative
-              approach combines creative vision with data-driven insights,
-              delivering tailored marketing solutions that spark meaningful
-              connections and drive business growth.
+            <p className="font-dm font-normal text-[14px] md:text-lg text-[#dedede] leading-121 mt-3 md:mt-4 xl:mt-6 md:max-w-[600px] lg:max-w-[432px] xl:max-w-[517px]">
+              Great brands don’t just advertise, they connect. With powerful
+              below-the-line marketing and all the other services that we
+              provide, we turn your ideas into memorable moments that spark
+              curiosity, loyalty, and attention. From eye-catching float van
+              services to game-changing product launches and local market
+              activations, we help you rise above the noise.
             </p>
+            
             <div className="mt-3 md:mt-6 xl:mt-[43px]">
               <button
                 className="font-dm text-black text-base md:text-[20px] font-normal bg-white rounded-full py-2 px-4 md:py-3 md:px-6 flex justify-center items-center gap-2.5"

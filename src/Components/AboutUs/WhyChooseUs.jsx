@@ -13,29 +13,43 @@ const WhyChooseUs = () => {
         <h2 className="font-roboto font-semibold text-[26px] md:text-[32px] lg:text-[40px] xl:text-[64px] text-light_black leading-121 text-center">
           Why Choose Us?
         </h2>
-        <div className="flex flex-wrap justify-center mt-5 lg:mt-8 xl:mt-24">
+        <div className="flex flex-wrap justify-center mt-5 lg:mt-8 xl:mt-24 text-center">
           <div className="w-full md:w-2/4 lg:w-4/12">
-            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center text-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-11">
+            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] h-full min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-4 md:p-11 lg:p-4 xl:p-11">
               <Proven />
-              <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[30px] leading-121 text-white mb-0 mt-6">
-                Proven success in engaging campaigns
+              <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[26px] leading-121 text-white mb-0 mt-6">
+                End-to-End Expertise in BTL Marketing Activities
+              </p>
+              <p className="font-roboto font-normal text-lg leading-121 text-white mb-0 mt-2">
+                From creative ideation to flawless execution, we manage every
+                detail, ensuring your brand shines.
               </p>
             </div>
           </div>
           <div className="w-full md:w-2/4 lg:w-4/12 mt-4 md:mt-0">
-            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center text-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-11">
+            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] h-full min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-4 md:p-11 lg:p-4 xl:p-11">
               <Dedication />
-              <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[30px] leading-121 text-white mb-0 mt-6">
-                Dedication to measurable results
+              <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[26px] leading-121 text-white mb-0 mt-6">
+                PAN India Network for Product Launch Services
+              </p>
+              <p className="font-roboto font-normal text-lg leading-121 text-white mb-0 mt-2">
+                With a strong presence nationwide, we deliver consistent,
+                high-impact campaigns wherever your audience is.
               </p>
             </div>
           </div>
           <div className="w-full md:w-2/4 lg:w-4/12 mt-4 lg:mt-0">
-            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center text-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-11">
+            <div className="max-w-[446px] md:max-w-[350px] lg:max-w-[315px] xl:max-w-[446px] h-full min-h-[250px] lg:min-h-[302px] bg-[#64CCC5] flex flex-col items-center justify-center rounded-xl transition duration-500 hover:translate-y-2 lg:hover:translate-y-10 p-4 md:p-11 lg:p-4 xl:p-11">
               <Tailored />
-              <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[30px] leading-121 text-white mb-0 mt-6">
-                Tailored, creative strategies
-              </p>
+              <div>
+                <p className="font-roboto font-semibold text-lg lg:text-[22px] xl:text-[26px] leading-121 text-white mb-0 mt-6">
+                  Results-Driven Approach
+                </p>
+                <p className="font-roboto font-normal text-lg leading-121 text-white mb-0 mt-2">
+                  Every activation, event, and campaign is designed to drive
+                  engagement, brand recall, and measurable ROI.
+                </p>
+              </div>
             </div>
           </div>
         </div>

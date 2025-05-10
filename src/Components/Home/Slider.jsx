@@ -21,7 +21,7 @@ const Slider = () => {
   return (
     <div className="pb-10 md:pb-[103px] pt-[25px]">
       <div className="max-w-[1400px] mx-auto px-4">
-        <div className="w-full md:h-[511px] h-[450px] bg-[#f4f4f4] rounded-3xl text-center flex flex-col justify-center items-center p-[15px] sm:p-[20px] md:p-[45px] relative">
+        <div className="w-full h-[560px] bg-[#f4f4f4] rounded-3xl text-center flex flex-col justify-center items-center p-[15px] sm:p-[20px] md:p-[45px] relative">
           <Swiper
             loop={true}
             navigation={{
@@ -39,13 +39,16 @@ const Slider = () => {
                   src={amit_bishnoi}
                   alt=""
                 />
-                <h2 className="font-roboto font-semibold text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1282px] mb-0 mt-5 md:mt-[35px]">
-                  “Cynor Media is a full-service agency driving guaranteed
-                  results through innovative designs. Founded by Amit Bishnoi,
-                  we deliver integrated marketing solutions with strategic
-                  thinking, design optimization, and 360-degree expertise for
-                  diverse brands.”
+                <h2 className="font-roboto font-semibold text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1282px] mb-0 mt-5 md:mt-[15px]">
+                  “At Cynor Media, we don’t just market, we spark movements."
                 </h2>
+                <h3 className="font-roboto font-medium text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1182px] mb-0 mt-5 md:mt-2">
+                  We go beyond traditional advertising. It’s about putting out
+                  messages or running generic campaigns. Instead, it’s about
+                  inspiring action, creating emotional connections, and building
+                  a community around the brand. We think of it as turning a
+                  brand campaign into a cultural moment.
+                </h3>
                 <h4 className="font-roboto font-semibold text-xl leading-121 text-light_black mb-0 mt-2 md:mt-5">
                   Amit Bishnoi
                 </h4>
@@ -61,12 +64,13 @@ const Slider = () => {
                   src={sliderone}
                   alt=""
                 />
-                <h2 className="font-roboto font-semibold text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1282px] mb-0 mt-5 md:mt-[35px]">
-                  "Ramniwas Bishnoi, Co-Founder of Cynor Media, brings expertise
-                  to the agency, focusing on client satisfaction and impactful
-                  results. With a keen eye for innovation, he drives strategic
-                  marketing initiatives and design solutions that transform
-                  brands."
+                <h2 className="font-roboto font-medium text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1182px] mb-0 mt-5 md:mt-[15px]">
+                  This journey started with a passion to break the mold in
+                  marketing. Today, every success story we create at Cynor Media
+                  is a personal milestone and just the beginning. We believe
+                  great marketing isn’t just about visibility; it’s about
+                  creating value through experiences that people remember and
+                  our clients are proud of.
                 </h2>
                 <h4 className="font-roboto font-semibold text-xl leading-121 text-light_black mb-0 mt-2 md:mt-5">
                   Ramniwas Bishnoi

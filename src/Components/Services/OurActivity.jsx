@@ -34,8 +34,12 @@ const OurActivity = () => {
                 Float Van Campaign
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Promote your brand on the move with eye-catching, mobile
-                advertising that grabs attention in every corner.
+                Take your brand on the move with a dynamic Float Van Campaign.
+                These mobile branding vehicles are customized with eye-catching
+                visuals, music, and interactive setups that travel to
+                high-footfall areas, markets, and events. Roll up with your
+                brand, spark conversations, and turn every stop into an
+                opportunity!
               </p>
             </div>
           </div>
@@ -50,8 +54,12 @@ const OurActivity = () => {
                 BTL Marketing
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Target specific audiences through creative and cost-effective
-                below-the-line marketing strategies.
+                BTL (Below the Line) Marketing focuses on localized, direct
+                engagement with your target audience through personalized
+                experiences. We design campaigns like activations, roadshows,
+                product sampling, and street promotions that help your brand
+                build real, emotional connections on-ground and drive measurable
+                business impact.
               </p>
             </div>
           </div>
@@ -66,8 +74,11 @@ const OurActivity = () => {
                 Float Setup
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Transform vehicles into dynamic advertising platforms with
-                customized float designs.
+                A Float Setup transforms public spaces into branded showcases
+                using customized mobile platforms. These are often themed and
+                equipped with product displays, mascots, music, and performers,
+                creating a striking and memorable on-ground presence, especially
+                during festivals, events, or special promotions.
               </p>
             </div>
           </div>
@@ -82,8 +93,11 @@ const OurActivity = () => {
                 Market Setup
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Create a compelling presence in local markets with engaging
-                stalls and displays.
+                Market Setups help brands tap into bustling local markets by
+                setting up branded stalls, canopies, and demo zones. It’s a
+                highly effective way to connect with potential customers,
+                showcase products, distribute samples, and generate leads right
+                where buying decisions happen.
               </p>
             </div>
           </div>
@@ -98,8 +112,11 @@ const OurActivity = () => {
                 Product Launch
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Execute impactful launches that make your product the center of
-                attention from day one.
+                Leave a long-term impression for your product with our Product
+                Launch services. From concept to execution, we manage everything
+                — venue setup, stage management, product unveil moments,
+                audience engagement, media coverage, and digital amplification,
+                ensuring your new product makes a lasting impression.
               </p>
             </div>
           </div>
@@ -114,8 +131,12 @@ const OurActivity = () => {
                 Corporate Events
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Organize seamless corporate events that leave a lasting
-                impression on attendees.
+                Professional, seamless, and on-point — our Corporate Event
+                services cover conferences, seminars, award nights, annual
+                meets, and more. We take care of every detail, from venue
+                arrangements to audiovisual setups, branding, guest management,
+                and logistics to deliver flawless, impactful business
+                gatherings.
               </p>
             </div>
           </div>
@@ -130,8 +151,11 @@ const OurActivity = () => {
                 Marketing Survey
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Gather valuable consumer insights through detailed and
-                professional marketing surveys.
+                Understand your audience better with real-time, on-ground
+                Marketing Surveys. Our trained promoters conduct structured
+                surveys in malls, markets, societies, and commercial areas,
+                gathering valuable consumer feedback and insights that can shape
+                your future marketing and product strategies.
               </p>
             </div>
           </div>
@@ -146,8 +170,11 @@ const OurActivity = () => {
                 Test Drive Event
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Let customers experience your product firsthand with
-                well-coordinated test drive events.
+                Turn test drives into decisions with our on-ground Test Drive
+                Events. We set up branded experience zones in malls, RWAs, and
+                public areas where customers can explore, test, and experience
+                your vehicle in a relaxed, interactive environment, supported by
+                expert product demos and booking facilities.
               </p>
             </div>
           </div>
@@ -162,8 +189,11 @@ const OurActivity = () => {
                 Residential Campaign
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Connect directly with communities through personalized,
-                on-ground residential campaigns.
+                With residential campaigns, you can take your brand directly to
+                your audience. We organize creative, interactive activities,
+                games, contests, and product displays in gated communities and
+                apartment complexes, enabling brands to build personal
+                connections and drive awareness within tight-knit neighborhoods.
               </p>
             </div>
           </div>
@@ -178,8 +208,11 @@ const OurActivity = () => {
                 Digital Marketing
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Boost your online presence with expert campaigns on YouTube,
-                Facebook, Instagram, and Google Ads.
+                Boost your brand’s online visibility with our Digital Marketing
+                services. We craft strategic, performance-driven campaigns
+                across social media, search engines, and influencer platforms,
+                creating engaging content, targeted ads, and interactive
+                campaigns that convert viewers into customers.
               </p>
             </div>
           </div>
@@ -194,8 +227,11 @@ const OurActivity = () => {
                 Creative Designs
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Stand out with stunning visuals and creative designs tailored to
-                your brand's identity.
+                Visually striking designs are the language of brands. Our
+                Creative Design services deliver compelling digital and print
+                creatives for events, promotions, and digital campaigns,
+                ensuring your brand identity is consistent, bold, and
+                attention-grabbing wherever it appears.
               </p>
             </div>
           </div>
@@ -210,8 +246,11 @@ const OurActivity = () => {
                 Holdings Pan India
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Showcase your brand with high-quality, durable holdings that
-                make a statement.
+                Achieve nationwide brand visibility with PAN India Hoardings. We
+                identify and book high-impact locations across cities, highways,
+                and marketplaces to place large-format billboards that grab
+                attention, reinforce brand messaging, and ensure wider exposure
+                to reach a mass audience.
               </p>
             </div>
           </div>
@@ -226,8 +265,10 @@ const OurActivity = () => {
                 Wall Wrap
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Turn walls into branding opportunities with vibrant, large-scale
-                wall wraps.
+                Turn ordinary walls into bold branding opportunities with Wall
+                Wraps. Place your large vinyl graphics on public walls, markets,
+                or society entrances, creating eye-catching, high-impact outdoor
+                advertising spaces that effectively capture public attention.
               </p>
             </div>
           </div>
@@ -242,8 +283,11 @@ const OurActivity = () => {
                 Flex and Banners
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Deliver your message loud and clear with high-quality flex and
-                banner printing.
+                Flex and Banners are quick, affordable, and impactful tools for
+                event promotions, outdoor advertising, or retail visibility. We
+                create durable, high-quality visuals tailored to your brand’s
+                messaging needs, placed at strategic locations for maximum
+                footfall and attention.
               </p>
             </div>
           </div>
@@ -258,8 +302,11 @@ const OurActivity = () => {
                 Mug and T-Shirt Printing
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Promote your brand with customized mugs and t-shirts that
-                resonate with your audience.
+                Strengthen brand recall through customized merchandise like mugs
+                and T-shirts. Ideal for giveaways, promotions, or employee
+                engagement, these high-quality, personalized items turn your
+                brand into a part of people’s daily lives while adding a
+                thoughtful personal touch.
               </p>
             </div>
           </div>
@@ -274,8 +321,11 @@ const OurActivity = () => {
                 Leaflets and Look-Walkers
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Distribute your message effectively with designed leaflets and
-                eye-catching look-walker campaigns.
+                Distribute your brand message directly into people’s hands with
+                Leaflets and Look Walkers. Perfect for markets, malls,
+                residential areas, and events, these marketing tools combine
+                creative designs and clear messaging to drive awareness and
+                spark interest in your products or services.
               </p>
             </div>
           </div>
@@ -290,8 +340,11 @@ const OurActivity = () => {
                 RWA Activation
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[518px] mt-2 lg:mt-3 xl:mt-5">
-                Engage residents directly through interactive and impactful RWA
-                activations
+                Connect with residential communities through RWA Activations. We
+                design engaging activities, workshops, games, and contests
+                inside apartment complexes and housing societies, offering
+                brands a unique, interactive platform to engage families in a
+                friendly, community-driven environment.
               </p>
             </div>
           </div>
@@ -306,8 +359,11 @@ const OurActivity = () => {
                 Mall Activation
               </h2>
               <p className="font-dm font-normal text-base lg:text-lg leading-121 text-light_black max-w-[548px] mt-2 lg:mt-3 xl:mt-5">
-                Capture high footfall areas with engaging mall activation
-                campaigns that drive awareness and interaction.
+                Capture the attention of shoppers in high-footfall malls with
+                Mall Activations. These experiential brand setups include
+                product demos, games, live performances, and contests, creating
+                a lively, engaging space where shoppers can interact directly
+                with your brand in a relaxed setting.
               </p>
             </div>
           </div>

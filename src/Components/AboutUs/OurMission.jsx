@@ -56,9 +56,9 @@ const CounterSection = () => {
               Inspiring Connections, Driving Engagement
             </h2>
             <p className="font-dm font-normal text-lg leading-121 text-white max-w-[603px] mt-5 lg:mt-8 mb-0">
-              To deliver tailored BTL marketing solutions that inspire
-              connections, drive engagement, and create lasting value for brands
-              and their audiences.
+              We aim to empower brands with tailored, impactful marketing
+              solutions that spark conversations, drive engagement, and leave a
+              memorable imprint where it matters most.
             </p>
             {/* Counters in Separate Divs */}
             <div className="mt-6 lg:mt-12 flex gap-10">
@@ -105,7 +105,7 @@ const CounterSection = () => {
           </div>
           <div className="w-full lg:w-[45%] mt-6 flex justify-center">
             <img
-              className="md:max-w-[450px] xl:max-w-[629px]"
+              className="md:max-w-[450px] xl:max-w-[529px]"
               src={ourmission}
               alt=""
             />

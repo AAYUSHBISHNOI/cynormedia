@@ -42,24 +42,25 @@ const ReadyToElevate = () => {
 
         <div className="flex flex-wrap py-10 lg:py-14 xl:py-[158px] text-center items-center md:text-start">
           <div className="w-full md:w-3/5 xl:w-[70%]">
-            <h1 className="font-dm font-bold text-4xl xsm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-121 text-white">
-              Welcome to Cynor Media
+            <h1 className="font-dm font-bold text-[28px] xsm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl leading-121 text-white">
+              About Cynor Media
             </h1>
             <p className="md:w-[448px] lg:w-[587px] xl:w-[927px] text-white font-dm font-normal leading-130 text-base mb-0 mt-4 xl:mt-10">
-              At Cynor Media, we are more than just a BTL marketing company — we
-              are passionate storytellers, strategic thinkers, and brand
-              builders with a clear vision to make every brand stand out. Our
-              work goes beyond traditional marketing as we craft stories that
-              inspire, influence, and connect. From product launches and
-              activations to roadshows and promotional campaigns, we create
-              meaningful brand experiences that engage audiences and deliver
-              impact.
+              Welcome to Cynor Media — a trusted BTL marketing company in India,
+              delivering impactful campaigns. At Cynor Media, we transform bold
+              ideas into powerful brand experiences. Since 2015, we’ve been at
+              the forefront of BTL event management in Chandigarh and across
+              India, offering 360-degree{" "}
+              <a href="/service" className=" text-[#64ccc5] font-extrabold">
+                services
+              </a>{" "}
+              for brand promotions. Our services include Float Van campaigns,
+              product launches, corporate events, and creative advertising, etc.
             </p>
             <p className="md:w-[448px] lg:w-[587px] xl:w-[927px] text-white font-dm font-normal leading-130 text-base mb-0 mt-3 xl:mt-8">
-              Founded in 2017 under the leadership of Mr. Amit Bishnoi, Cynor
-              Media has steadily evolved into a trusted name in BTL marketing.
-              Our team of experienced professionals and creative experts brings
-              deep industry knowledge and on-ground execution skills.
+              Backed by a passionate, results-driven team and a PAN India
+              presence, we don’t just plan events — we create experiences that
+              connect, engage, and convert.
             </p>
             <h5 className="text-white font-dm leading-130 font-bold text-3xl lg:text-5xl mt-4 lg:mt-10 mb-0">
               Mr. Amit Bishnoi
