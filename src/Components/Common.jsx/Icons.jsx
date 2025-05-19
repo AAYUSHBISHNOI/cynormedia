@@ -111,65 +111,57 @@ export const DigitalMarket = () => {
     </svg>
   );
 };
-export const WebDevelop = () => {
+export const Corporateevents = () => {
   return (
     <svg
-      className="transition-all duration-300 ease-in-out w-14 md:w-[60px] xl:w-[81px] h-14 md:h-[60px] xl:h-[81px]"
-      viewBox="0 0 81 81"
+      viewBox="0 0 81 80"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="transition-all duration-300 ease-in-out w-14 md:w-[60px] xl:w-[81px] h-14 md:h-[60px] xl:h-[81px] group"
     >
-      <path
-        d="M40.0141 80.0282C62.1133 80.0282 80.0282 62.1133 80.0282 40.0141C80.0282 17.9149 62.1133 0 40.0141 0C17.9149 0 0 17.9149 0 40.0141C0 62.1133 17.9149 80.0282 40.0141 80.0282Z"
+      <circle
+        cx="40.5"
+        cy="40"
+        r="40"
         className="fill-[#000] group-hover:fill-[#fff] transition-all duration-500 ease-in-out"
       />
-      <g clip-path="url(#clip0_2_385)">
-        <path
-          d="M56.4844 20.0781H23.5156C21.5771 20.0781 20 21.6552 20 23.5938V56.4062C20 58.3448 21.5771 59.9219 23.5156 59.9219H56.4844C58.4229 59.9219 60 58.3448 60 56.4062V23.5938C60 21.6552 58.4229 20.0781 56.4844 20.0781ZM23.5156 22.4219H56.4844C57.1305 22.4219 57.6562 22.9476 57.6562 23.5938V29.4531H22.3438V23.5938C22.3438 22.9476 22.8695 22.4219 23.5156 22.4219ZM56.4844 57.5781H23.5156C22.8695 57.5781 22.3438 57.0524 22.3438 56.4062V31.7969H57.6562V56.4062C57.6562 57.0524 57.1305 57.5781 56.4844 57.5781Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M43.9772 35.4073C43.3824 35.1523 42.6934 35.4279 42.4385 36.0227L35.4072 52.429C35.1522 53.0238 35.4278 53.7128 36.0227 53.9677C36.6178 54.2227 37.3066 53.947 37.5614 53.3523L44.5927 36.946C44.8477 36.3511 44.5721 35.6622 43.9772 35.4073Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M33.8838 39.2679C33.4794 38.7625 32.7418 38.6806 32.2367 39.0849L26.3773 43.7724C25.7914 44.2409 25.791 45.1337 26.3773 45.6026L32.2367 50.2901C32.7421 50.6944 33.4796 50.6124 33.8838 50.1071C34.2881 49.6017 34.2062 48.8642 33.7007 48.46L28.9853 44.6875L33.7007 40.9151C34.2062 40.5108 34.2881 39.7734 33.8838 39.2679Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M53.6227 43.7724L47.7633 39.0849C47.2579 38.6805 46.5204 38.7625 46.1162 39.2679C45.7119 39.7733 45.7938 40.5108 46.2993 40.915L51.0147 44.6875L46.2993 48.4599C45.7938 48.8642 45.7119 49.6016 46.1162 50.107C46.5211 50.613 47.2586 50.6939 47.7633 50.29L53.6227 45.6025C54.2086 45.134 54.209 44.2413 53.6227 43.7724Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M25.9375 27.1094C26.5847 27.1094 27.1094 26.5847 27.1094 25.9375C27.1094 25.2903 26.5847 24.7656 25.9375 24.7656C25.2903 24.7656 24.7656 25.2903 24.7656 25.9375C24.7656 26.5847 25.2903 27.1094 25.9375 27.1094Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M30.625 27.1094C31.2722 27.1094 31.7969 26.5847 31.7969 25.9375C31.7969 25.2903 31.2722 24.7656 30.625 24.7656C29.9778 24.7656 29.4531 25.2903 29.4531 25.9375C29.4531 26.5847 29.9778 27.1094 30.625 27.1094Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M35.3125 27.1094C35.9597 27.1094 36.4844 26.5847 36.4844 25.9375C36.4844 25.2903 35.9597 24.7656 35.3125 24.7656C34.6653 24.7656 34.1406 25.2903 34.1406 25.9375C34.1406 26.5847 34.6653 27.1094 35.3125 27.1094Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-        <path
-          d="M47.0312 27.1094H54.0625C54.7097 27.1094 55.2344 26.5847 55.2344 25.9375C55.2344 25.2903 54.7097 24.7656 54.0625 24.7656H47.0312C46.3841 24.7656 45.8594 25.2903 45.8594 25.9375C45.8594 26.5847 46.3841 27.1094 47.0312 27.1094Z"
-          className="stroke-[#fff] group-hover:stroke-[#292556] transition-all duration-500 ease-in-out"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_2_385">
-          <rect
-            width="40"
-            height="40"
-            fill="white"
-            transform="translate(20 20)"
-          />
-        </clipPath>
-      </defs>
+
+      <circle
+        cx="20"
+        cy="28"
+        r="5"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
+      <path
+        d="M12 40c0-3 4.5-5 8-5s6 2 6 5v2H12v-2Z"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
+
+      <circle
+        cx="40.5"
+        cy="28"
+        r="6"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
+      <path
+        d="M30 44c0-4 7-6 10.5-6s10.5 2 10.5 6v2H30v-2Z"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
+
+      <circle
+        cx="60"
+        cy="27"
+        r="5"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
+      <path
+        d="M53 40c0-3 4.5-5 8-5s6 2 6 5v2H53v-2Z"
+        className="fill-white group-hover:fill-[#292556] transition-all duration-500 ease-in-out"
+      />
     </svg>
   );
 };
+
 export const Btl = () => {
   return (
     <svg

@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Btl,
+  Corporateevents,
   Digital,
   DigitalMarket,
   Float,
@@ -96,15 +97,14 @@ const OurServise = () => {
                 src={webdevelopment}
                 alt=""
               /> */}
-              <WebDevelop />
+              <Corporateevents />
               <h4 className=" font-roboto text-[22px] md:text-[25px] font-medium leading-121 text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-5 xl:mt-[62px]">
-                Web Development
+                Corporate Events
               </h4>
               <p className=" font-dm text-base xl:text-lg leading-121 font-normal text-[#0c0c0c] group-hover:text-[#fff] transition-all duration-500 ease-in-out mb-0 mt-1 xl:mt-[15px] max-w-[378px]">
-                Stand out online with tailor-made websites built from scratch
-                and as per your vision. Our web development team blends design,
-                technology, content, and strategy to create powerful experiences
-                that attract, engage, and convert visitors.
+                We deliver seamless corporate events that align with your brand,
+                from meetings to large conferences, ensuring flawless execution
+                and strong engagement.
               </p>
             </div>
           </div>

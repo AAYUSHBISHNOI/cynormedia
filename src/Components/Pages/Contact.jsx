@@ -19,7 +19,10 @@ const Contact = () => {
           content="contact Cynor Media, marketing inquiries, collaboration, business support"
         />
         <link rel="canonical" href="https://www.cynormedia.com/contact-us" />
-        <meta property="og:title" content="  Contact Us | Connect with BTL Marketing Experts – Cynor Media" />
+        <meta
+          property="og:title"
+          content="  Contact Us | Connect with BTL Marketing Experts – Cynor Media"
+        />
         <meta
           property="og:description"
           content="Reach out to Cynor Media for marketing and branding solutions."
