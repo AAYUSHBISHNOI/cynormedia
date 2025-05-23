@@ -2,15 +2,15 @@ import React from "react";
 import HeaderOurClients from "../OurClients/HeaderOurClients";
 import WhatOurClients from "../OurClients/WhatOurClients";
 import EnoughTalks from "../AboutUs/EnoughTalks";
-import { Helmet } from "react-helmet";
 import Accordion from "../OurClients/Accordion";
+import Head from "next/head";
 
 const OurClients = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>
-          Our Clients | Trusted Partners in BTL Marketing – Cynor Media
+          Our Clients - Partners in BTL Marketing | Cynor Media
         </title>
         <meta
           name="description"
@@ -21,9 +21,11 @@ const OurClients = () => {
           content="Cynor Media clients, trusted partners, BTL marketing clients, brand collaborations, client portfolio"
         />
         <link rel="canonical" href="https://www.cynormedia.com/our-clients" />
+        <meta name="robots" content="index, follow" />
+
         <meta
           property="og:title"
-          content=" Our Clients | Trusted Partners in BTL Marketing – Cynor Media"
+          content="Our Clients - Partners in BTL Marketing | Cynor Media"
         />
         <meta
           property="og:description"
@@ -34,6 +36,7 @@ const OurClients = () => {
           content="https://www.cynormedia.com/our-clients"
         />
         <meta property="og:type" content="website" />
+
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -43,10 +46,9 @@ const OurClients = () => {
           name="twitter:description"
           content="Check out our successful client collaborations in BTL marketing across India."
         />
-      </Helmet>
+      </Head>
 
       <div>
-   
         <HeaderOurClients />
         <WhatOurClients />
         <Accordion />
