@@ -9,9 +9,7 @@ const OurClients = () => {
   return (
     <>
       <Head>
-        <title>
-          Our Clients - Partners in BTL Marketing | Cynor Media
-        </title>
+        <title>Our Clients - Partners in BTL Marketing | Cynor Media</title>
         <meta
           name="description"
           content="Explore the trusted brands and businesses we’ve partnered with. Cynor Media delivers impactful BTL marketing solutions to top clients across India."

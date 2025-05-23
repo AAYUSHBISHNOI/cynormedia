@@ -6,12 +6,12 @@ import Process from "../Home/Process";
 import RecentShowcase from "../Home/RecentShowcase";
 import Slider from "../Home/Slider";
 import Navbar from "../Home/Navbar";
-import { Helmet } from "react-helmet";
+import Head from "next/head";
 
 const Home = () => {
   return (
     <>
-      <Helmet>
+      <Head>
         <title>Cynor Media - Below the line Marketing Company in India</title>
         <meta
           name="description"
@@ -22,6 +22,9 @@ const Home = () => {
           content="BTL marketing, branding, advertising, digital growth"
         />
         <link rel="canonical" href="https://www.cynormedia.com/" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph */}
         <meta property="og:title" content="Home - Cynor Media" />
         <meta
           property="og:description"
@@ -29,13 +32,15 @@ const Home = () => {
         />
         <meta property="og:url" content="https://www.cynormedia.com/" />
         <meta property="og:type" content="website" />
+
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Home - Cynor Media" />
         <meta
           name="twitter:description"
           content="Explore Cynor Media's BTL marketing and branding solutions."
         />
-      </Helmet>
+      </Head>
 
       {/* <Navbar /> */}
       <Header />
