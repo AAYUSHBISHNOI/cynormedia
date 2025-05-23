@@ -48,7 +48,7 @@ const Customer = () => {
           <img
             className="w-[448px] lg:w-[366px] xl:w-[448px] h-[640px] xsm:h-[760px] xl:h-[880px] mt-8 lg:mt-0 md:hidden lg:block"
             src={customer}
-            alt=""
+            alt="what is above the line marketing"
           />
         </div>
       </div>

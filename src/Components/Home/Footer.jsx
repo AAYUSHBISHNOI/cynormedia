@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="w-full md:w-[55%] lg:w-[40%]">
             <div className="flex items-center gap-2">
               <a href="" className="flex items-center gap-2">
-                <img className="" src={Footerlogo} alt="" />
+                <img className="" src={Footerlogo} alt="btl marketing" />
                 <p className=" font-roboto font-semibold text-[20px] text-white mb-0">
                   Cynor Media
                 </p>
@@ -169,34 +169,34 @@ const Footer = () => {
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[90px] h-[80px]"
                   src={tata}
-                  alt=""
+                  alt="best btl marketing campaigns"
                 />
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[100px] h-[80px]"
                   src={jhondeere}
-                  alt=""
+                  alt="atl btl marketing campaigns"
                 />
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[100px] h-[80px]"
                   src={maruti}
-                  alt=""
+                  alt="below the line marketing campaigns"
                 />
               </div>
               <div className="flex items-center gap-6 mt-4">
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
                   src={epson}
-                  alt=""
+                  alt="what is above the line marketing"
                 />
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
                   src={hero}
-                  alt=""
+                  alt="below the line marketing meaning"
                 />
                 <img
                   className="w-[60px] lg:w-[70px] xl:w-[100px] h-full"
                   src={kubota}
-                  alt=""
+                  alt="btl marketing"
                 />
               </div>
             </div>

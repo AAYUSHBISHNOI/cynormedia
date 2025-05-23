@@ -28,56 +28,56 @@ const HeaderOurClients = () => {
               <img
                 className="w-full h-full max-w-[145px] md:max-w-[128px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
                 src={imageone}
-                alt=""
+                alt="best btl marketing campaigns"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[135px] md:max-w-[88px] lg:max-w-[120px] xl:max-w-[125px] min-h-[90px] xl:min-h-[70px]"
                 src={imagetwo}
-                alt=""
+                alt="below the line marketing activities"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[90px]"
                 src={imageseven}
-                alt=""
+                alt="best btl marketing campaigns"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[45px]"
                 src={imagethree}
-                alt=""
+                alt="atl btl ttl marketing"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[45px]"
                 src={imagefour}
-                alt=""
+                alt="what is above the line marketing"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[40px] mt-3"
                 src={imagefive}
-                alt=""
+                alt="below the line marketing activities"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[40px] mt-3"
                 src={imagesix}
-                alt=""
+                alt="btl marketing"
               />
             </div>
             <div>
               <img
                 className="w-full h-full max-w-[145px] lg:max-w-[120px] xl:max-w-[145px] min-h-[40px] mt-3"
                 src={imageseight}
-                alt=""
+                alt="below the line marketing meaning"
               />
             </div>
           </div>

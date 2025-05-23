@@ -15,7 +15,7 @@ const Header = () => {
       <img
         className="w-[183px] h-[193px] absolute top-[10%] hidden 2xl:flex"
         src={dots}
-        alt=""
+        alt="atl btl marketing campaigns"
       />
       <div className="max-w-[1400px] mx-auto px-4 xl:pb-[110px] pt-[40px] pb-16 md:pt-[60px] md:pb-28 xl:pt-[90px]">
         <div className="lg:flex items-center">
@@ -90,12 +90,12 @@ const Header = () => {
               <img
                 className="w-[180px] md:w-[450px] lg:w-[420px] xl:w-[550px] md:h-[450px] lg:h-[420px] xl:h-[550px] lg:me-4 xl:me-0"
                 src={mainimg}
-                alt=""
+                alt="below the line marketing campaigns"
               />
               <img
                 className="absolute -top-[63%] md:-top-[62%] lg:-top-[61%] xl:-top-[63%] -right-[63%] md:-right-[62%] lg:-right-[54.5%] xl:-right-[63%] max-w-[408px] md:max-w-[1010px] lg:max-w-[930px] xl:max-w-[1250px] xl:min-h-[850px] "
                 src={eleipse_img}
-                alt=""
+                alt="atl btl ttl marketing"
               />
             </div>
             {/* <div className="w-[450px] h-[450px] rounded-full bg-transparent custom-border"></div> */}

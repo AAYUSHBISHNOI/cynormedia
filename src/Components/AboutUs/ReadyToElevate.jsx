@@ -73,13 +73,13 @@ const ReadyToElevate = () => {
             <img
               className="z-50 relative w-[260px] lg:w-[362px] h-[350px] lg:h-[512px] rounded-2xl"
               src={owner}
-              alt=""
+              alt="btl marketing"
             />
             <div className="bg-[#64ccc5] h-[330px] w-[260px] lg:h-[504px] lg:w-[370px] rounded-3xl blur-[16px] absolute top-6 right-1 xsm:right-9 sm:right-16 md:right-0"></div>
             <img
               className="w-[290px] sm:w-[350px] lg:w-[780px] h-[440px] lg:h-[540px] absolute -top-10 right-0 sm:right-10 md:right-4 lg:right-9 lg:-top-24"
               src={star}
-              alt=""
+              alt="below the line marketing"
             />
           </div>
         </div>

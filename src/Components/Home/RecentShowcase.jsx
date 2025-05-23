@@ -17,7 +17,7 @@ const RecentShowcase = () => {
               <img
                 className="w-full h-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px]"
                 src={imagone}
-                alt=""
+                alt="below the line marketing activities"
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
                 Float Van Campaign
@@ -48,7 +48,7 @@ const RecentShowcase = () => {
               <img
                 className="w-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px] rounded-[20px]"
                 src={imagetwo}
-                alt=""
+                alt="below the line marketing campaigns"
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
                 Float Setup
@@ -63,7 +63,7 @@ const RecentShowcase = () => {
               <img
                 className="w-full h-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px] rounded-[20px]"
                 src={imagethree}
-                alt=""
+                alt="atl btl marketing campaigns"
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
                 Corporate Events
@@ -78,7 +78,7 @@ const RecentShowcase = () => {
               <img
                 className="w-full xl:max-w-[663px] md:max-w-[355px] lg:max-w-[480px] min-h-[212px] md:min-h-[280px] lg:min-h-[370px] xl:min-h-[450px]"
                 src={imagefour}
-                alt=""
+                alt="below the line marketing activities"
               />
               <p className="font-roboto font-semibold text-xl md:text-2xl lg:text-3xl leading-121 text-light_black mb-0 mt-2 lg:mt-4">
                 Product Launch

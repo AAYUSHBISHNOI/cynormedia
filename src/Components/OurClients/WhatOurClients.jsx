@@ -85,7 +85,7 @@ const WhatOurClients = () => {
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
                   src={manish}
-                  alt=""
+                  alt="best btl marketing campaigns"
                 />
                 <div className=" flex justify-between gap-6">
                   <div>
@@ -96,7 +96,11 @@ const WhatOurClients = () => {
                       <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
                         5
                       </p>
-                      <img className="w-[80px]" src={star_image} alt="" />
+                      <img
+                        className="w-[80px]"
+                        src={star_image}
+                        alt="atl btl marketing campaigns"
+                      />
                     </div>
                   </div>
                   <Comma />
@@ -116,7 +120,7 @@ const WhatOurClients = () => {
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
                   src={Sandy}
-                  alt=""
+                  alt="below the line marketing campaigns"
                 />
                 <div>
                   <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
@@ -126,7 +130,11 @@ const WhatOurClients = () => {
                     <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
                       5
                     </p>
-                    <img className="w-[80px]" src={star_image} alt="" />
+                    <img
+                      className="w-[80px]"
+                      src={star_image}
+                      alt="what is above the line marketing"
+                    />
                   </div>
                 </div>
                 <Comma />
@@ -148,7 +156,7 @@ const WhatOurClients = () => {
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
                   src={rocky}
-                  alt=""
+                  alt="atl btl ttl marketing"
                 />
                 <div>
                   <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
@@ -158,7 +166,11 @@ const WhatOurClients = () => {
                     <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
                       5
                     </p>
-                    <img className="w-[80px]" src={star_image} alt="" />
+                    <img
+                      className="w-[80px]"
+                      src={star_image}
+                      alt="atl btl ttl marketing"
+                    />
                   </div>
                 </div>
                 <Comma />
@@ -175,7 +187,7 @@ const WhatOurClients = () => {
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
                   src={akash}
-                  alt=""
+                  alt="below the line marketing activities"
                 />
                 <div>
                   <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
@@ -185,7 +197,11 @@ const WhatOurClients = () => {
                     <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
                       5
                     </p>
-                    <img className="w-[80px]" src={star_image} alt="" />
+                    <img
+                      className="w-[80px]"
+                      src={star_image}
+                      alt="btl marketing"
+                    />
                   </div>
                 </div>
                 <Comma />
@@ -202,7 +218,7 @@ const WhatOurClients = () => {
                 <img
                   className="w-[50px] lg:w-[100px] h-[50px] lg:h-[100px]"
                   src={vipin}
-                  alt=""
+                  alt="best btl marketing campaigns"
                 />
                 <div>
                   <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
@@ -212,7 +228,11 @@ const WhatOurClients = () => {
                     <p className="font-roboto font-bold text-base lg:text-[32px] leading-121 text-[#0a0338] mb-0">
                       5
                     </p>
-                    <img className="w-[80px]" src={star_image} alt="" />
+                    <img
+                      className="w-[80px]"
+                      src={star_image}
+                      alt="atl btl marketing campaigns"
+                    />
                   </div>
                 </div>
                 <Comma />

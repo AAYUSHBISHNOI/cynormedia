@@ -10,7 +10,7 @@ const Experince = () => {
           <img
             className="w-[448px] lg:w-[366px] xl:w-[448px] h-[640px] xsm:h-[760px] xl:h-[880px] mt-8 lg:mt-0 hidden lg:block"
             src={experince}
-            alt=""
+            alt="atl btl ttl marketing"
           />
           <div className="px-4 text-center lg:text-start">
             <h2 className="font-roboto text-black text-3xl lg:text-6xl xl:text-8xl font-bold leading-121 mt-5 lg:mt-0">
@@ -57,7 +57,7 @@ const Experince = () => {
           <img
             className="w-[448px] lg:w-[366px] xl:w-[448px] h-[640px] xsm:h-[760px] xl:h-[880px] mt-8 lg:mt-0 md:hidden"
             src={experince}
-            alt=""
+            alt="atl btl ttl marketing"
           />
         </div>
       </div>

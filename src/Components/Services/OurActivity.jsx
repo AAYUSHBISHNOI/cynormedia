@@ -28,7 +28,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={float_van}
-                alt=""
+                alt="best btl marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Float Van Campaign
@@ -48,7 +48,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={btl_marketing}
-                alt=""
+                alt="atl btl marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 BTL Marketing
@@ -68,7 +68,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={float_setup}
-                alt=""
+                alt="below the line marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Float Setup
@@ -87,7 +87,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={market_setup}
-                alt=""
+                alt="what is above the line marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Market Setup
@@ -106,7 +106,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={product_launch}
-                alt=""
+                alt="atl btl ttl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Product Launch
@@ -125,7 +125,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={corporate_events}
-                alt=""
+                alt="below the line marketing activities"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Corporate Events
@@ -145,7 +145,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={marketing_survey}
-                alt=""
+                alt="atl btl ttl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Marketing Survey
@@ -164,7 +164,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={test_drive}
-                alt=""
+                alt="btl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Test Drive Event
@@ -183,7 +183,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={residential}
-                alt=""
+                alt="btl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Residential Campaign
@@ -202,7 +202,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={digital_marketing}
-                alt=""
+                alt="atl btl ttl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Digital Marketing
@@ -221,7 +221,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={creative_design}
-                alt=""
+                alt="best btl marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Creative Designs
@@ -240,7 +240,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={holding}
-                alt=""
+                alt="atl btl marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Holdings Pan India
@@ -259,7 +259,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={wall_wrap}
-                alt=""
+                alt="what is above the line marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Wall Wrap
@@ -277,7 +277,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={flex_banner}
-                alt=""
+                alt="what is above the line marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Flex and Banners
@@ -296,7 +296,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={mug_t_shirt}
-                alt=""
+                alt="best btl marketing campaigns"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Mug and T-Shirt Printing
@@ -315,7 +315,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={leaflets}
-                alt=""
+                alt="btl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Leaflets and Look-Walkers
@@ -334,7 +334,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={rwa_activations}
-                alt=""
+                alt="below the line marketing activities"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 RWA Activation
@@ -353,7 +353,7 @@ const OurActivity = () => {
               <img
                 className="max-w-[614px] w-full h-[175px] lg:min-h-[384px] rounded-2xl"
                 src={mall_activations}
-                alt=""
+                alt="atl btl ttl marketing"
               />
               <h2 className="font-roboto font-semibold text-lg lg:text-[30px] xl:text-[32px] text-light_black leading-121 mt-3 lg:mt-5 xl:mt-9 mb-0">
                 Mall Activation

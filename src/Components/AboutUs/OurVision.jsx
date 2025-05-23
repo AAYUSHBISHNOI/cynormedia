@@ -53,7 +53,7 @@ const OurVision = () => {
           <img
             className="w-[448px] lg:w-[366px] xl:w-[448px] h-[640px] xsm:h-[760px] xl:h-[880px] mt-8 lg:mt-0 md:hidden lg:block"
             src={vision}
-            alt=""
+            alt="below the line marketing activities"
           />
         </div>
       </div>

@@ -107,7 +107,7 @@ const CounterSection = () => {
             <img
               className="md:max-w-[450px] xl:max-w-[529px]"
               src={ourmission}
-              alt=""
+              alt="below the line marketing campaigns"
             />
           </div>
         </div>

@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Cynor Media - BTL Marketing Company in India</title>
+        <title>Cynor Media - Below the line Marketing Company in India</title>
         <meta
           name="description"
           content="Explore Cynor Media's BTL marketing and branding solutions. Elevate your brand with us."

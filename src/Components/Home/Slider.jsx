@@ -37,7 +37,7 @@ const Slider = () => {
                 <img
                   className="w-[100px] md:w-[120px] lg:w-[140px] h-[100px] md:h-[120px] lg:h-[140px] rounded-full"
                   src={amit_bishnoi}
-                  alt=""
+                  alt="btl marketing"
                 />
                 <h2 className="font-roboto font-semibold text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1282px] mb-0 mt-5 md:mt-[15px]">
                   “At Cynor Media, we don’t just market, we spark movements."
@@ -62,7 +62,7 @@ const Slider = () => {
                 <img
                   className="w-[100px] md:w-[120px] lg:w-[140px] h-[100px] md:h-[120px] lg:h-[140px]"
                   src={sliderone}
-                  alt=""
+                  alt="what is above the line marketing"
                 />
                 <h2 className="font-roboto font-medium text-[15px] md:text-[19px] lg:text-[21px] xl:text-[25px] leading-140 text-light_black max-w-[1182px] mb-0 mt-5 md:mt-[15px]">
                   This journey started with a passion to break the mold in
