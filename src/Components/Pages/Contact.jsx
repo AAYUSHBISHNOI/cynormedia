@@ -1,13 +1,15 @@
 import React from "react";
 import LetsTalk from "../ContactUs/LetsTalk";
 import GoogleMap from "../ContactUs/GoogleMap";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <>
-      <Head>
-        <title>Contact Us - Connect with BTL Experts | Cynor Media</title>
+      <Helmet>
+        <title>
+          Contact Us - Connect with BTL Marketing Experts | Cynor Media
+        </title>
         <meta
           name="description"
           content="Get in touch with Cynor Media for expert BTL marketing solutions. Reach out today to discuss your brand activation, events, or advertising needs."
@@ -17,11 +19,9 @@ const Contact = () => {
           content="contact Cynor Media, marketing inquiries, collaboration, business support"
         />
         <link rel="canonical" href="https://www.cynormedia.com/contact-us" />
-        <meta name="robots" content="index, follow" />
-
         <meta
           property="og:title"
-          content="Contact Us - Connect with BTL Marketing | Cynor Media"
+          content="  Contact Us - Connect with BTL Marketing Experts | Cynor Media"
         />
         <meta
           property="og:description"
@@ -32,16 +32,16 @@ const Contact = () => {
           content="https://www.cynormedia.com/contact-us"
         />
         <meta property="og:type" content="website" />
-
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Us - Cynor Media" />
         <meta
           name="twitter:description"
           content="Get in touch with our experts at Cynor Media for top-notch marketing services."
         />
-      </Head>
+      </Helmet>
 
       <div>
+        {/* <Navbar /> */}
         <LetsTalk />
         <GoogleMap />
       </div>
