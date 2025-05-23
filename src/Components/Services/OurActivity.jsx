@@ -39,7 +39,7 @@ const OurActivity = () => {
                 visuals, music, and interactive setups that travel to
                 high-footfall areas, markets, and events. Roll up with your
                 brand, spark conversations, and turn every stop into an
-                opportunity!
+                opportunity
               </p>
             </div>
           </div>
